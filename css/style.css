@@ -2249,12 +2249,33 @@ section.inner_banner h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+    
+    margin-bottom: 0px;
+    background-color:  #095a83;
+}
+
+
+
 #container2{
     background-color: white;
-    margin : 20px auto;
-    height: 620px;
+    margin : 0px auto;
+    height: 550px;
     width : 700px;
- box-shadow: 0px 5px 15px 0px;
+ //box-shadow: 0px 5px 15px 0px;
     position: relative;
 }
 
@@ -2262,8 +2283,8 @@ section.inner_banner h3 {
            #container2 {
 
                background-color:white;
-    margin : 20px auto;
-    height: 620px;
+    margin : 0px auto;
+    height: 550px;
     width : 550px;
    
     //box-shadow: 0px 5px 15px 0px;
@@ -2275,7 +2296,7 @@ section.inner_banner h3 {
     font-size: 1.5em;
     font-weight: bolder;
     word-break: break-all;
-    width:200px;
+    width:130px;
     height:150px;
     border : 2px solid lightgrey;
     text-align: center;
@@ -2336,10 +2357,19 @@ section.inner_banner h3 {
     width : 100%;
     position: absolute;
     margin-right: 10px;
-    top : 400px;
+    top : 380px;
     padding : 10px
          
 }
+
+@media screen and (max-width: 640px) {
+       #choices{
+   
+        top : 300px;   
+    
+}
+}
+
 .choice{
     display: inline-block;
     width : 135px;
@@ -2353,6 +2383,7 @@ section.inner_banner h3 {
 @media screen and (max-width: 640px) {
        .choice{
     width : 110px;
+            
     
 }
 }
@@ -2404,7 +2435,7 @@ section.inner_banner h3 {
     width : 350px;
     position: absolute;
     bottom :15px;
-    right : 0px;
+    right : 20px;
     padding:5px;
     text-align: right;
    background-color: white;
@@ -2475,8 +2506,8 @@ section.inner_banner h3 {
     display: block;
     width : 59px;
     height :59px;
-    top:130px;
-    left:325px;
+    top:160px;
+    left:335px;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -2485,6 +2516,94 @@ section.inner_banner h3 {
 @media screen and (max-width: 640px) {
       #scoreContainer p{
     position: absolute;
-    left:245px
+    left:245px;
 }
 }
+
+/*nessesary margin auto,max-width for working ofpadding*/
+        #card124 {
+            background-color:  #095a83;
+            margin: auto;
+           width: 100%;
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+        /*nessesary margin auto,max-width for working ofpadding*/
+        #card12468 h2 {
+            background: #095a83;
+           
+            margin: auto;
+            max-width: 700px;
+            padding: 4px;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: -1px -1px #111111;
+        }
+
+ /*nessesary margin auto,max-width for working ofpadding*/
+        #card12468 {
+            background-color:  #095a83;
+            margin: auto;
+           width: 100%;
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+        /*nessesary margin auto,max-width for working ofpadding*/
+        #card124 h2 {
+            background: #8B012F;
+            background: -moz-linear-gradient(#ffffff,  #095a83);
+            background: -o-linear-gradient(#ffffff,  #095a83);
+            background: -webkit-linear-gradient(#ffffff,  #095a83);
+            /*background: #437133;
+  background: -moz-linear-gradient(#437133, #284020);
+  background: -o-linear-gradient(#437133, #284020);
+  background: -webkit-linear-gradient(#437133, #284020);*/
+            border-bottom: 2px solid #1D2D17;
+            border-radius: 0px 0px 0px 0px;
+            -moz-border-radius: 0px 0px 0px 0px;
+            -webkit-border: 0px 0px 0px 0px;
+            font: bold 120% 'Open Sans Condensed', sans-serif;
+            margin: auto;
+            max-width: 700px;
+            background-color: #333;
+            padding: 4px;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: -1px -1px #111111;
+        }
+
+/*nessesary margin auto,max-width for working ofpadding*/
+        #card1246 {
+            background-color:  #095a83;
+            margin: auto;
+           width: 100%;
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+        /*nessesary margin auto,max-width for working ofpadding*/
+        #card1246 h2 {
+            background: #8B012F;
+            background: -moz-linear-gradient(#095a83,  #ffffff);
+            background: -o-linear-gradient(#095a83,  #ffffff);
+            background: -webkit-linear-gradient(#095a83,  #ffffff);
+            /*background: #437133;
+  background: -moz-linear-gradient(#437133, #284020);
+  background: -o-linear-gradient(#437133, #284020);
+  background: -webkit-linear-gradient(#437133, #284020);*/
+            border-top: 2px solid #1D2D17;
+            border-radius: 0px 0px 0px 0px;
+            -moz-border-radius: 0px 0px 0px 0px;
+            -webkit-border: 0px 0px 0px 0px;
+            font: bold 120% 'Open Sans Condensed', sans-serif;
+            margin: auto;
+            max-width: 700px;
+            background-color: #333;
+            padding: 4px;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: -1px -1px #111111;
+        }
+

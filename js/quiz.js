@@ -16,7 +16,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
      {
         question : "What does HTML stand for?",
-        imgSrc : "images/26.png",
+        imgSrc : "img/26.png",
         choiceA : "a",
         choiceB : "b",
         choiceC : "c",
@@ -24,7 +24,7 @@ let questions = [
         correct : "D"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/27.png",
+        imgSrc : "img/27.png",
         choiceA : "a",
         choiceB : "b",
         choiceC : "c",
@@ -32,7 +32,7 @@ let questions = [
         correct : "C"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/28.png",
+        imgSrc : "img/28.png",
         choiceA : "a",
         choiceB : "b",
         choiceC : "c",
@@ -40,7 +40,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/29.png",
+        imgSrc : "img/29.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -48,7 +48,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does JS stand for?",
-        imgSrc : "images/30.png",
+        imgSrc : "img/30.png",
         choiceA : "Wrong",
         choiceB : "Wrong",
         choiceC : "Correct",
@@ -56,7 +56,7 @@ let questions = [
         correct : "C"
     },{
         question : "What does hj stand for?",
-        imgSrc : "images/31.png",
+        imgSrc : "img/31.png",
         choiceA : "Wrong",
         choiceB : "Wrong",
         choiceC : "Correct",
@@ -64,7 +64,7 @@ let questions = [
         correct : "C"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/32.png",
+        imgSrc : "img/32.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -72,7 +72,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/33.png",
+        imgSrc : "img/33.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -80,7 +80,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/34.png",
+        imgSrc : "img/34.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -88,7 +88,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/35.png",
+        imgSrc : "img/35.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -104,7 +104,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/37.png",
+        imgSrc : "img/37.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -112,7 +112,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/38.png",
+        imgSrc : "img/38.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -120,7 +120,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/39.png",
+        imgSrc : "img/39.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -128,7 +128,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/40.png",
+        imgSrc : "img/40.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -144,7 +144,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/42.png",
+        imgSrc : "img/42.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -152,7 +152,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/43.png",
+        imgSrc : "img/43.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -160,7 +160,7 @@ let questions = [
         correct : "A" 
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/44.png",
+        imgSrc : "img/44.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -168,7 +168,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/45.png",
+        imgSrc : "img/45.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -176,7 +176,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/46.png",
+        imgSrc : "img/46.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -184,7 +184,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/47.png",
+        imgSrc : "img/47.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -192,7 +192,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/48.png",
+        imgSrc : "img/48.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -201,7 +201,7 @@ let questions = [
    
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/49.png",
+        imgSrc : "img/49.png",
         choiceA : "Correct",
         choiceB : "Wrong",
         choiceC : "Wrong",
@@ -209,7 +209,7 @@ let questions = [
         correct : "A"
     },{
         question : "What does HTML stand for?",
-        imgSrc : "images/50.png",
+        imgSrc : "img/50.png",
         choiceA : "a",
         choiceB : "b",
         choiceC : "c",
