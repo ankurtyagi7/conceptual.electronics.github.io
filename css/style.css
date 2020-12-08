@@ -2561,9 +2561,9 @@ section.inner_banner h3 {
         /*nessesary margin auto,max-width for working ofpadding*/
         #card1246 h2 {
             background: #8B012F;
-            background: -moz-linear-gradient(#095a83,  #ffffff);
-            background: -o-linear-gradient(#095a83,  #ffffff);
-            background: -webkit-linear-gradient(#095a83,  #ffffff);
+            background: -moz-linear-gradient(#0b1c2c,  #095a83);
+            background: -o-linear-gradient(#0b1c2c,  #095a83);
+            background: -webkit-linear-gradient(#0b1c2c,  #095a83);
             /*background: #437133;
   background: -moz-linear-gradient(#437133, #284020);
   background: -o-linear-gradient(#437133, #284020);
@@ -2639,51 +2639,7 @@ section.inner_banner h3 {
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
-.fl-table {
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: normal;
-    border: none;
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
-    background-color: white;
-}
 
-.fl-table td, .fl-table th {
-    text-align: center;
-    padding: 8px;
-}
-
-.fl-table td {
-    border-right: 1px solid #f8f8f8;
-    font-size: 17px;
-}
-
-.fl-table thead th {
-    color: #ffffff;
-    background: #4FC3A1;
-}
-
-
-.fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #324960;
-}
-
-.fl-table tr:nth-child(even) {
-    background: #F8F8F8;
-    
-}
-
-/* Responsive */
-
-@media (max-width: 767px) {
-    .fl-table {
-        display: block;
-        width: 100%;
-    }
     .table-wrapper:before{
         content: "Scroll horizontally >";
         display: block;
@@ -2692,56 +2648,7 @@ section.inner_banner h3 {
         color: white;
         padding: 0 0 10px;
     }
-    .fl-table thead, .fl-table tbody, .fl-table thead th {
-        display: block;
-    }
-    .fl-table thead th:last-child{
-        border-bottom: none;
-    }
-    .fl-table thead {
-        float: left;
-    }
-    .fl-table tbody {
-        width: auto;
-        position: relative;
-        overflow-x: auto;
-    }
-    .fl-table td, .fl-table th {
-        padding: 20px .625em .625em .625em;
-        height: 60px;
-        vertical-align: middle;
-        box-sizing: border-box;
-        overflow-x: hidden;
-        overflow-y: auto;
-        width: 120px;
-        font-size: 13px;
-        text-overflow: ellipsis;
-    }
-    .fl-table thead th {
-        text-align: left;
-        border-bottom: 1px solid #f7f7f9;
-    }
-    .fl-table tbody tr {
-        display: table-cell;
-    }
-    .fl-table tbody tr:nth-child(odd) {
-        background: none;
-    }
-    .fl-table tr:nth-child(even) {
-        background: transparent;
-    }
-    .fl-table tr td:nth-child(odd) {
-        background: #F8F8F8;
-        border-right: 1px solid #E6E4E4;
-    }
-    .fl-table tr td:nth-child(even) {
-        border-right: 1px solid #E6E4E4;
-    }
-    .fl-table tbody td {
-        display: block;
-        text-align: center;
-    }
-}
+   
 
 
 
@@ -2754,6 +2661,90 @@ a.bottom {
 }
 
 
+/*pdf download secion*/
 
+   .column5 {
+  float: left;
+  width: 25%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
 
+@media screen and (max-width: 760px) {
+  .column5 {
+    width: 50%;
+    display: block;
+  }
+}
+@media screen and (max-width: 640px) {
+  .column5 {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 540px) {
+  .column5 {
+    width: 100%;
+    display: block;
+  }
+}
 
+.card5 {
+  background-color: darkcyan;
+}
+
+.card6 {
+  background-color: #65d5e8;
+}
+
+.container5 {
+  padding: 0 16px;
+}
+.container5 h2 {
+  font-size: 18px;
+}
+
+.container5::after, .row5::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title5 {
+  color: darkslategrey;
+    font-size: 18px;
+}
+
+.title4 {
+  color: saddlebrown;
+    font-size: 17px;
+}
+
+.title6 {
+  color: white;
+     font-size: 18px;
+}
+
+.title3 {
+  color: white;
+     font-size: 17px;
+}
+.button5 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0px;
+  color: white;
+  background-color: #005D42;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button5:hover {
+  background-color: #555;
+}
+
+.imgbg2{
+    background-color: darkcyan;
+}
