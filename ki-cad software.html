@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+           <style> 
+        
+
+#background-wrap {
+    bottom: 0;
+	left: 0;
+	//position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: -5%;
+	top: 5%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 10%;
+	top: 40%;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 20%;
+	top: 0;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 30%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 20%;
+	top: 0;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 65%;
+	top: 70%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+     .x11 {
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 50%;
+	top: 90%;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+          
+       .x12 {
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 30%;
+	top: 100%;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+                   
+         .x13 {
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 100%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}
+               .x14{
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 70%;
+	top: 100%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}
+           
+     .x15{
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 65%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}           
+               
+               
+  .x16{
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 95%;
+	top: 35%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}              
+               
+               
+     .x17{
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 25%;
+	top: 25%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}           
+               
+    .x18{
+    -webkit-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 30s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 75%;
+	top: 25%;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+}            
+               
+               
+               
+               
+               
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	text-align: center;
+    font-size: 50px;
+    color: deeppink;
+    height: 200px;
+	position: absolute;
+	width: 200px;
+   
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	
+	content: "";
+    height: 180px;
+	left: 10px;
+	position: absolute;
+	width: 180px;
+}
+        </style> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>Conceptual Elecronics</title>
+    <meta name="keywords" content="concepual elecronics">
+    <meta name="description" content="">
+    <meta name="author" content="Ankur Tyagi">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                     <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="Online%20quizzes.html">Online Quizzes</a></li>
+                        <li><a class="nav-link" href="download%20pdf.html">PDF</a></li>
+                        <li><a class="nav-link" href="index.html">Space Quiz MCQs</a></li>
+						<li><a class="nav-link" href="index.html">Electronics MCQs</a></li>
+						
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+ <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+      <div class="bubble x11"></div>
+      <div class="bubble x12"></div>
+      <div class="bubble x13"></div>
+      <div class="bubble x14"></div>
+      <div class="bubble x15"></div>
+      <div class="bubble x16"></div>
+      <div class="bubble x17"></div>
+      <div class="bubble x18"></div>
+     
+	<!-- section -->
+	
+	<section class="inner_banner">
+	  <div class="container">
+	      <div class="row">
+		      <div class="col-12">
+			     <div class="full">
+				     <h3> PCB Designing </h3>
+				 </div>
+			  </div>
+		  </div>
+	  </div>
+	</section>
+	
+	<!-- end section -->
+    
+    
+    
+    
+    
+    
+    
+      <!-- section -->
+    <div id="kicadtutorials">
+    <div class="section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="full">
+                        <div class="heading_main text_align_center">
+						   <h2><span>KI-CAD Software </span>Tutorials</h2>
+                        </div>
+					  </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="full blog_img_popular">
+                       <img class="img-responsive" src="images/how to create jumper or link wire2.png" alt="how to create jumper or link wire" /> 
+					   <h4><a class="Quizess"href="https://youtu.be/5daNwcidkEc">watch video</a></h4>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="full blog_img_popular">
+                        <img class="img-responsive" src="images/kicad%20introduction1.png" alt="#" />
+						<h4><a class="Quizess"href="https://youtu.be/UMRBIN_zQP0">watch video</a></h4>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="full blog_img_popular">
+                        <img class="img-responsive" src="images/kicad%20introduction2.png" alt="Take vitamins quiz" />
+						<h4><a class="Quizess"href="https://youtu.be/ZIOlB6bPwLQ">watch video </a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+	<!-- end section -->
+    
+    
+    
+    
+    
+    
+	<!-- section -->
+    
+    <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+						   <h2><span>About the KI-CAD series</span></h2>
+                        </div>
+						<div class="full">
+						  <p> Conceptual Electronics presents: An introduction to KiCad with  Ankur Tyagi.  In  this series Ankur discusses how PCBs are made and the benefits of utilizing KiCad as a design tool and making pro. component layouts.  KiCad is a free and open source platform which makes it great for learning how to make your own PCBs and circuit schematic while still being powerful enough to do more complicated design work. </p>
+						</div>
+						<div class="full">
+						   <a class="hvr-radial-out button-theme" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg" >Watch this series</a>
+						</div>
+                    </div>
+                </div>
+				<div class="col-md-6">
+                    <div class="full">
+                        <img class="img-responsive" src="images/perfect documentation.png" alt="#" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+	<!-- end section4 -->
+	
+        
+      
+        
+        
+        
+        
+        
+        
+    
+    <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+		
+		   <div class="row">
+		   
+		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			     <div class="footer_blog">
+				    <div class="full margin-bottom_30">
+					   <img src="images/logo2.png" alt="#" />
+					 </div>
+					 <div class="full white_fonts">
+					    <p> Thank you very much for your time and patience anything you have said(in comment section ) will be taken down and used as evidence that conceptual electronics is responding to the needs wishes of its viewers. </p>
+					 </div>
+				 </div>
+			  </div>
+			  
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+			       <div class="footer_blog footer_menu white_fonts">
+						    <h3>Quick links</h3>
+						    <ul> 
+							  <li><a href="index.html">> Electronics MCQs</a></li>
+							  <li><a href="index.html">> Space Quiz MCQs</a></li>
+							  <li><a href="download%20pdf.html">> Download pdf</a></li>
+							  <li><a href="ki-cad%20software.html">> KI-CAD sofware tuorials</a></li>
+							  <li><a href="Online%20quizzes.html">>  Online Quizzes</a></li>
+							</ul>
+						 </div>
+				 </div>
+				 
+				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <div class="footer_blog full white_fonts">
+						     <h3>Online Connect with us</h3>
+							
+							<div class="newsletter_form">
+							   <!-- <form action="index.html">
+								   <input type="email" placeholder="Your Email" name="#" required />
+								   <button>Submit</button>
+								</form>-->
+                                <a class="bottom" href="https://www.facebook.com/ankurtyagi.00">>Facebook</a>
+                                <br>
+                                 <a class="bottom" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg">>Youtube</a>
+                                
+							 </div>
+						 </div>
+					</div>	 
+			  
+			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+				 <div class="footer_blog full white_fonts">
+						     <h3>Contact us</h3>
+							 <ul class="full">
+							   <li><img src="images/i5.png"><span>Roorkee<br>Haridwar(Uttarakhand) India </span></li>
+							   <li><img src="images/i6.png"><span>conceptual.electronics@gmail.com</span></li>
+							  <!-- <li><img src="images/i7.png"><span>+12586954775</span></li>-->
+							 </ul> 
+						 </div>
+					</div>	 
+			  
+		   </div>
+		
+        </div>
+    </footer>
+             
+    <!-- End Footer -->
+
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="crp">© Copyrights 2019 design by Ankur Tyagi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/slider-index.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+	<script>
+	/* counter js */
+
+(function ($) {
+	$.fn.countTo = function (options) {
+		options = options || {};
+		
+		return $(this).each(function () {
+			// set options for current element
+			var settings = $.extend({}, $.fn.countTo.defaults, {
+				from:            $(this).data('from'),
+				to:              $(this).data('to'),
+				speed:           $(this).data('speed'),
+				refreshInterval: $(this).data('refresh-interval'),
+				decimals:        $(this).data('decimals')
+			}, options);
+			
+			// how many times to update the value, and how much to increment the value on each update
+			var loops = Math.ceil(settings.speed / settings.refreshInterval),
+				increment = (settings.to - settings.from) / loops;
+			
+			// references & variables that will change with each update
+			var self = this,
+				$self = $(this),
+				loopCount = 0,
+				value = settings.from,
+				data = $self.data('countTo') || {};
+			
+			$self.data('countTo', data);
+			
+			// if an existing interval can be found, clear it first
+			if (data.interval) {
+				clearInterval(data.interval);
+			}
+			data.interval = setInterval(updateTimer, settings.refreshInterval);
+			
+			// initialize the element with the starting value
+			render(value);
+			
+			function updateTimer() {
+				value += increment;
+				loopCount++;
+				
+				render(value);
+				
+				if (typeof(settings.onUpdate) == 'function') {
+					settings.onUpdate.call(self, value);
+				}
+				
+				if (loopCount >= loops) {
+					// remove the interval
+					$self.removeData('countTo');
+					clearInterval(data.interval);
+					value = settings.to;
+					
+					if (typeof(settings.onComplete) == 'function') {
+						settings.onComplete.call(self, value);
+					}
+				}
+			}
+			
+			function render(value) {
+				var formattedValue = settings.formatter.call(self, value, settings);
+				$self.html(formattedValue);
+			}
+		});
+	};
+	
+	$.fn.countTo.defaults = {
+		from: 0,               // the number the element should start at
+		to: 0,                 // the number the element should end at
+		speed: 1000,           // how long it should take to count between the target numbers
+		refreshInterval: 100,  // how often the element should be updated
+		decimals: 0,           // the number of decimal places to show
+		formatter: formatter,  // handler for formatting the value before rendering
+		onUpdate: null,        // callback method for every time the element is updated
+		onComplete: null       // callback method for when the element finishes updating
+	};
+	
+	function formatter(value, settings) {
+		return value.toFixed(settings.decimals);
+	}
+}(jQuery));
+
+jQuery(function ($) {
+  // custom formatting example
+  $('.count-number').data('countToOptions', {
+	formatter: function (value, options) {
+	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+	}
+  });
+  
+  // start all the timers
+  $('.timer').each(count);  
+  
+  function count(options) {
+	var $this = $(this);
+	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+	$this.countTo(options);
+  }
+});
+        
+        
+        
+        
+        
+        
+        
+        
+        
+  
+        
+        
+        
+        
+        
+	</script>
+</body>
+
+</html>

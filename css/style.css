@@ -382,12 +382,13 @@ a.navbar-brand img {
     height: 55px;
 }
 
-.top-header .navbar .navbar-collapse ul li a.active {}
+.top-header .navbar .navbar-collapse ul li a:active {}
 .top-header .navbar .navbar-collapse ul li a:hover,
 .top-header .navbar .navbar-collapse ul li a:focus {
 	background: transparent;
 	color: #d4a81e;
 }
+
 
 .search_icon.nav-link img {
 	width: 25px;
@@ -448,6 +449,9 @@ a.navbar-brand img {
 	border: 2px solid #d4a81e;
 }
 
+
+
+
 .navbar-toggler:hover span {
 	background: #d4a81e;
 }
@@ -464,6 +468,9 @@ a.navbar-brand img {
 .blog_img_popular {
     margin-bottom: 30px;
 }
+
+
+
 
 /*------------------------------------------------------------------ Banner -------------------------------------------------------------------*/
 
@@ -2023,7 +2030,7 @@ ul.social_icon li {
 }
 
 footer.footer-box p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .footer_blog {
@@ -2091,14 +2098,37 @@ section.inner_banner {
 
 section.inner_banner h3 {
     margin: 0;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: -1px;
+    font-size: 40px;
+    font-weight: 500;
+   // letter-spacing: -1px;
     text-align: center;
     line-height: 110px !important;
     padding: 0;
 	color: #fff;
 }
+
+@media screen and (max-width: 640px) {
+  section.inner_banner {
+    min-height: 90px;
+    background: #002147;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+  section.inner_banner h3 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 300;
+   // letter-spacing: -1px;
+    text-align: center;
+    line-height: 100px !important;
+    padding: 0;
+	color: #fff;
+}
+}
+
+
 
 #demo .img-responsive {
 	width: 100%;
@@ -2635,13 +2665,14 @@ section.inner_banner h3 {
 /* Table Styles */
 
 .table-wrapper{
+    
     margin: 10px 70px 70px;
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
 
     .table-wrapper:before{
-        content: "Scroll horizontally >";
+       // content: "Scroll horizontally >";
         display: block;
         text-align: right;
         font-size: 11px;
@@ -2664,10 +2695,14 @@ a.bottom {
 /*pdf download secion*/
 
    .column5 {
+        border-right: 1px solid #d4a81e; 
+      
+        border-left: 1px solid #d4a81e; 
+   
   float: left;
   width: 25%;
   margin-bottom: 0px;
-  padding: 0px;
+  
 }
 
 @media screen and (max-width: 760px) {
@@ -2690,11 +2725,16 @@ a.bottom {
 }
 
 .card5 {
-  background-color: darkcyan;
+   
+  
+  background-color: #ffffff;
+    padding: 0px;
 }
 
 .card6 {
-  background-color: #65d5e8;
+    
+  background-color: #ffffff;
+    padding: 0px;
 }
 
 .container5 {
@@ -2721,30 +2761,113 @@ a.bottom {
 }
 
 .title6 {
-  color: white;
+  color: midnightblue;
      font-size: 18px;
 }
 
 .title3 {
-  color: white;
+    
+ 
      font-size: 17px;
 }
 .button5 {
+     border-radius: 15px 0px 15px 0px;
   border: none;
   outline: 0;
   display: inline-block;
   padding: 0px;
   color: white;
-  background-color: #005D42;
+  background-color: #07528d;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button5:hover {
-  background-color: #555;
+  background-color: #d4a81e;
+    
 }
 
+.button5 a:hover{
+    color:  #07528d;
+}
 .imgbg2{
+    
     background-color: darkcyan;
 }
+
+.dummy h30{
+    font-size: 20px;
+    color:#ffffff;
+}
+
+
+
+/* jump */
+
+.footer_blog h8 {
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: darkslategrey;
+    border-bottom: solid #e0af14 2px;
+    font-weight: 600;
+    margin-top: 14px;
+    float: right;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.footer-box2 {
+    margin: 10px 100px 100px;
+    background-color: #F6F5F5;
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 760px) {
+  .footer-box2{
+    margin: 10px;
+  }
+}
+
+a.bottom9 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid deeppink;
+    color:darkblue;
+    font-size: 20px;
+    border-bottom-width: thick;
+    width: 100%;
+   
+}
+
+a.bottom9:hover {
+    padding-bottom: 5px;
+    border-bottom: 0px solid white;
+    text-decoration: underline;
+    text-decoration-color:ghostwhite;
+    color:deeppink;
+    font-size: 20px;
+}
+
+
+
+a:active {
+color: darkcyan;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

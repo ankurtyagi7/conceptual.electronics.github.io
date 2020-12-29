@@ -35,6 +35,127 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    
+<style>
+
+
+
+
+
+
+
+
+#fly-in {
+    
+    
+ // background-image: radial-gradient(#333, #111);
+ 
+  color: #111;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  overflow: hidden;
+  
+      //font-family: 'Lobster Two', cursive;   
+    
+    margin-left: 10vh;
+  font-size: 4em;
+margin-bottom: 10vh;
+  height: 20vh; 
+  text-transform: uppercase;
+   
+}
+
+#fly-in span {
+    margin-top: 50px;
+  display: block;
+  font-size: 30px;
+  opacity: .8;
+    font-family: 'Lobster Two', cursive;
+    color: deeppink;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+         
+
+} 
+    
+    
+    @media screen and (max-width: 640px) {
+  #fly-in span {
+    margin-top: 50px;
+  display: block;
+  font-size: 20px;
+  opacity: .8;
+    font-family: 'Lobster Two', cursive;
+    color: deeppink;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+         
+
+} 
+    
+}
+
+#fly-in div {
+      margin-top: 50px;
+    
+ position: absolute; <!--codepen.io/h-kod/-->
+  margin: 10px 0;
+  opacity: 0;
+  left:0vw;
+ // width: 80vw;
+  animation: switch 36s linear infinite;
+   // background-color: aqua;
+     padding: 0px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+     font-size: 40px;
+}
+
+      @media screen and (max-width: 640px) {
+  #fly-in div {
+      margin-top: 50px;
+    font-size: 30px;
+ position: absolute; <!--codepen.io/h-kod/-->
+  margin: 10px 0;
+  opacity: 0;
+  left:0vw;
+ // width: 80vw;
+  animation: switch 36s linear infinite;
+   // background-color: aqua;
+     padding: 10px;
+    width: 100%;
+}
+    
+}
+    
+    
+    
+#fly-in div:nth-child(2) { animation-delay: 4s}
+#fly-in div:nth-child(3) { animation-delay: 8s}
+#fly-in div:nth-child(4) { animation-delay: 12s}
+#fly-in div:nth-child(5) { animation-delay: 16s}
+#fly-in div:nth-child(6) { animation-delay: 20s}
+#fly-in div:nth-child(7) { animation-delay: 24s}
+#fly-in div:nth-child(8) { animation-delay: 28s}
+    #fly-in div:nth-child(9) { animation-delay: 32s}
+ #fly-in div:nth-child(10) { animation-delay: 36s}
+@keyframes switch {
+    0% { opacity: 0;filter: blur(20px); transform:scale(12)}
+    3% { opacity: 1;filter: blur(0); transform:scale(1)}
+    10% { opacity: 1;filter: blur(0); transform:scale(.9)}
+    13% { opacity: 0;filter: blur(10px); transform:scale(.1)}
+    80% { opacity: 0}
+    100% { opacity: 0}
+}
+ 
+ 
+ 
+</style>
+       
+    
 </head>
 
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -61,7 +182,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="Electronics%20Quiz.html">Online
+                        <li><a class="nav-link" href="Online%20quizzes.html">Online
                             Quizzes</a></li>
                         <li><a class="nav-link" href="download%20pdf.html">PDF</a></li>
                         <li><a class="nav-link" href="#spacequizmcqs">Space Quiz MCQs</a></li>
@@ -86,8 +207,8 @@
             <div class="row">
                 <div class="pogoSlider" id="js-main-slider">
                     <div class="pogoSlider-slide" style="background-image:url(images/banner_img.png);">
-                         <video autoplay muted loop id="tm-video">
-            <source src="video/Computer - 56888.mp4" type="video/mp4">
+                        <video autoplay muted loop id="tm-video">
+            <source src="video/Circuits%20-%204767.mp4" type="video/mp4">
         </video> 
                         <div class="container">
                             <div class="row">
@@ -133,7 +254,7 @@
 		      <div class="col-md-12">
 			     <div class="tab_menu">
 				    <ul>
-					   <li><a href="#kicadtutorials"><span class="icon"><img src="images/ki-4.png" alt="#" /></span><span>Ki-Cad  Tutorials
+					   <li><a href="ki-cad%20software.html"><span class="icon"><img src="images/ki-4.png" alt="#" /></span><span>Ki-Cad  Tutorials
                        </span></a></li>
 					   <li><a href="#onlinequizzes"><span class="icon"><img src="images/lightbulb.gif" alt="#" /></span><span>Quizzes</span></a></li>
 					   
@@ -176,10 +297,36 @@ that range from a simple hobby-through to the design and manufacture of commerci
                     <div class="full">
                          <!--<video autoplay muted loop id="tm-video">
             <source src="video/Computer - 56888.mp4" type="video/mp4">
-        </video>--> 
+        </video> 
                         
                         
-                        <img src="images/bigstock1.jpg" alt="#" /
+                        <img src="images/bigstock1.jpg" alt="#" > -->
+                        
+                   
+                  <div id="fly-in">  
+<div><span>Welcome to</span>Conceptual Electronics </div>
+                         <div>Take the <span> Quizzes  </span></div>
+    <div><span>QUIZZES</span>Electronics Quiz </div> 
+                   
+ <div><span>QUIZZES</span>Space Quiz</div>
+<div><span>QUIZZES</span>Vitamins Quiz</div>
+                       <div><span>You can</span>download PDF</div>
+<div><span>LEARN</span>Software Tutorials</div>
+<div>KI-CAD<span>Software tutorials</span></div>
+    <div>Gerber 2.6.1<span>Software tutorials</span></div>
+
+
+   
+   
+</div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -260,7 +407,8 @@ that range from a simple hobby-through to the design and manufacture of commerci
     </div>
     </div>
 	<!-- end section -->
-   
+     
+                   
     
     <!-- section -->
     <div id="spacequizmcqs">
@@ -357,19 +505,19 @@ that range from a simple hobby-through to the design and manufacture of commerci
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
                        <img class="img-responsive" src="images/take%20electronics%20quiz.png" alt="#" /> 
-					   <h4><a class="Quizess"href="Electronics%20Quiz.html">Electronics Quiz</a></h4>
+					   <h4><a class="Quizess"href="Electronics%20MCQs%201.html">Electronics Quiz</a></h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
                         <img class="img-responsive" src="images/take%20space%20quiz.jpg" alt="#" />
-						<h4><a class="Quizess"href="courses.html">Space quiz </a></h4>
+						<h4><a class="Quizess"href="space%20quiz%201.html">Space quiz </a></h4>
                     </div>
                 </div>
 				<div class="col-md-4">
                     <div class="full blog_img_popular">
                         <img class="img-responsive" src="images/take%20vitamins%20mcq%20.png" alt="#" />
-						<h4><a class="Quizess"href="courses.html">Vitamins Quiz </a></h4>
+						<h4><a class="Quizess"href="vitamins%20quiz1.html">Vitamins Quiz </a></h4>
                     </div>
                 </div>
             </div>
@@ -405,77 +553,6 @@ that range from a simple hobby-through to the design and manufacture of commerci
     </div>
 	<!-- end section -->
     
-    
-    <!-- section -->
-    <div id="kicadtutorials">
-    <div class="section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>KI-CAD Software </span>Tutorials</h2>
-                        </div>
-					  </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                       <img class="img-responsive" src="images/how to create jumper or link wire2.png" alt="how to create jumper or link wire" /> 
-					   <h4><a class="Quizess"href="https://youtu.be/5daNwcidkEc">watch video</a></h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/take%20space%20quiz.jpg" alt="#" />
-						<h4><a class="Quizess"href="https://youtu.be/UMRBIN_zQP0">watch video</a></h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/take%20vitamins%20mcq%20.png" alt="Take vitamins quiz" />
-						<h4><a class="Quizess"href="https://youtu.be/ZIOlB6bPwLQ">watch video </a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    
-	<!-- end section -->
-    
-    
-    
-    
-    
-    
-	<!-- section -->
-    
-    <div class="section layout_padding padding_bottom-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <h2><span>About the KI-CAD series</span></h2>
-                        </div>
-						<div class="full">
-						  <p> Conceptual Electronics presents: An introduction to KiCad with  Ankur Tyagi.  In the first part of this series Ankur discusses how PCBs are made and the benefits of utilizing KiCad as a design tool and making pro. component layouts.  KiCad is a free and open source platform which makes it great for learning how to make your own PCBs and circuit schematic while still being powerful enough to do more complicated design work. </p>
-						</div>
-						<div class="full">
-						   <a class="hvr-radial-out button-theme" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg" >Watch this series</a>
-						</div>
-                    </div>
-                </div>
-				<div class="col-md-6">
-                    <div class="full">
-                        <img class="img-responsive" src="images/img7.png" alt="#" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        
-	<!-- end section4 -->
 	
         
      
@@ -514,7 +591,7 @@ that range from a simple hobby-through to the design and manufacture of commerci
 							  <li><a href="#electronicsmcqs">> Electronics MCQs</a></li>
 							  <li><a href="#spacequizmcqs">> Space Quiz MCQs</a></li>
 							  <li><a href="download%20pdf.html">> Download pdf</a></li>
-							  <li><a href="#kicadtutorials">> KI-CAD sofware tuorials</a></li>
+							  <li><a href="ki-cad%20software.html">> KI-CAD sofware tuorials</a></li>
 							  <li><a href="#onlinequizzes">>  Online Quizzes</a></li>
 							</ul>
 						 </div>
@@ -559,7 +636,7 @@ that range from a simple hobby-through to the design and manufacture of commerci
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© Copyrights 2019 design by html.design</p>
+                    <p class="crp">© Copyrights 2021 design by Ankur Tyagi</p>
                 </div>
             </div>
         </div>
