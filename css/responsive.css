@@ -306,24 +306,27 @@ a.navbar-brand img {
          left: 0;
          position: relative;
     }
-     .slide_text {
+    .slide_text {
          margin-top: 10%;
-		 display:none;
+		 //display:none;
     }
-     .slide_text h3 {
+   
+   /*  .slide_text h3 {
          font-size: 20px;
-    }
+    } */
+     
+     
      .slide_text h4 {
          font-size: 16px;
          margin: -20px 0;
     }
      .slide_text p {
-         display: none;
+        // display: none;
     }
-     .contact_bt {
+   /* .contact_bt {
          width: 90px;
          height: 35px;
-         background: #07528d;
+         background:#d4a81e;
          color: #fff;
          float: left;
          line-height: 36px;
@@ -331,7 +334,9 @@ a.navbar-brand img {
          font-size: 14px;
          font-weight: 300;
          margin-top: 5px;
-    }
+    }  
+     */
+     
      .top-header #navbar-wd {
          padding-right: 0;
     }

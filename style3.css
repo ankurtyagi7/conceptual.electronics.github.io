@@ -1,0 +1,114 @@
+/* [Master Stylesheet]
+- Template Name: Viral Story - Viral News Magazine Template
+- Template Author: Colorlib
+- Template URL: http://colorlib.com
+- Version: 1.0.0 */
+/* ###### Index of Stylesheet ######
+:: 1.0 Import Fonts
+:: 2.0 Import All CSS
+:: 3.0 Base CSS
+:: 4.0 Header Area
+:: 5.0 Hero Area
+:: 6.0 Welcome Slides Area
+:: 7.0 Blog Post Area
+:: 8.0 Footer Area
+:: 9.0 Contact Area */
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/classy-nav.min.css);
+@import url(css/nice-select.min.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+
+
+
+
+
+
+
+
+
+
+  
+/* :: 5.0 Hero Area */
+.hero-area {
+    margin-bottom: 0px;
+  position: relative;
+  z-index: 1;
+  background-color: #f3f5f8;
+  padding-top: 50px;
+ // border-bottom: 5px solid #e20378; }
+
+
+
+/* :: 7.0 Blog Post Area */
+.single-blog-post {
+  position: relative;
+  z-index: 1; }
+
+  .single-blog-post .post-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    min-width: 200px;
+    width: 200px;
+
+      
+}
+    .single-blog-post .post-thumb a {
+      display: block; }
+
+.single-blog-post .post-thumb a img{
+     border-radius: 15px;
+width: 300px;
+    height: 120px;
+}
+
+  .single-blog-post .post-data {
+    margin-left: 20px; }
+
+    .single-blog-post .post-data .post-catagory {
+      font-size: 14px;
+      color: #e20378;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: block; }
+    .single-blog-post .post-data .post-title {
+      display: block; }
+      .single-blog-post .post-data .post-title h6 {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        line-height: 1.8;
+        font-size: 14px;
+        color: #231f1f;
+          font-size: 17px;
+         }
+
+        .single-blog-post .post-data .post-title h6:hover, .single-blog-post .post-data .post-title h6:focus {
+          color: #e20378;
+            
+         }
+
+    .single-blog-post .post-data .post-meta .post-date {
+      margin-bottom: 0; }
+
+      .single-blog-post .post-data .post-meta .post-date a {
+        display: block; 
+        font-weight: 700;
+       color: crimson;
+       }
+
+        .single-blog-post .post-data .post-meta .post-date a:hover, .single-blog-post .post-data .post-meta .post-date a:focus {
+          color: #e20378; }
+   
+     
