@@ -1748,6 +1748,7 @@ select.form-control:not([size]):not([multiple]) {
 .footer-box {
     background: #0b1c2c;
     padding: 50px 0;
+    
 }
 
 .footer-box .footer-company-name {
@@ -2388,7 +2389,7 @@ section.inner_banner h3 {
                background-color:white;
     margin : 0px auto;
     height: 550px;
-    width : 480px;
+    width : 420px;
    
     //box-shadow: 0px 5px 15px 0px;
     position: relative;
@@ -2412,7 +2413,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
            #start {
-   left:180px;
+   left:150px;
     top:100px;
               
             }
@@ -2438,7 +2439,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
        #qImg img{
-    width : 480px;
+    width : 420px;
     
 }
 }
@@ -2494,7 +2495,7 @@ section.inner_banner h3 {
 }
 @media screen and (max-width: 640px) {
        .choice{
-    width : 100px;
+    width : 85px;
             
     
 }
@@ -2513,9 +2514,17 @@ section.inner_banner h3 {
     bottom : 0px;
     text-align: center;
 }
+
+
+
+
+
 #counter{
     font-size: 3em;
 }
+
+
+
 #btimeGauge{
     width : 150px;
     height : 10px;
@@ -2523,6 +2532,9 @@ section.inner_banner h3 {
     background-color: lightgray;
     margin-left : 25px;
 }
+
+
+
 #timeGauge{
     height : 10px;
     border-radius: 10px;
@@ -2544,14 +2556,14 @@ section.inner_banner h3 {
 }
  @media screen and (max-width: 640px) {
        #progress{
-    width : 280px;
+    width : 220px;
     position: absolute;
     bottom :15px;
-    right : 20px;
+    right : 10px;
     padding:5px;
     text-align: right;
    background-color: white;
-margin-right: 0px;
+margin-right: 10px;
              
             }
         }
@@ -2574,7 +2586,7 @@ margin-right: 0px;
     border: 1px solid #000;
     display: inline-block;
     border-radius: 50%;
-    margin-left : 15px;
+    margin-left : 5px;
     margin-right : 5px;
             }
         }
@@ -2594,7 +2606,7 @@ margin-right: 0px;
 @media screen and (max-width: 640px) {
       #scoreContainer{
    
-    width : 480px;
+    width : 420px;
    
 }
 }
@@ -2609,7 +2621,7 @@ margin-right: 0px;
       #scoreContainer img{
     position: absolute;
     top:100px;
-    left:240px;
+    left:185px;
 }
 }
 
@@ -2628,7 +2640,7 @@ margin-right: 0px;
 @media screen and (max-width: 640px) {
       #scoreContainer p{
     position: absolute;
-    left:245px;
+    left:194px;
 }
 }
 
@@ -2653,7 +2665,11 @@ margin-right: 0px;
             text-shadow: -1px -1px #111111;
         }
 
-
+@media screen and (max-width: 640px) {
+      #card12468 h2 {
+     max-width: 420px;
+}
+}
 
 
 
@@ -2692,7 +2708,7 @@ margin-right: 0px;
 
 @media screen and (max-width: 640px) {
       #card124 h2{
-     max-width: 480px;
+     max-width: 420px;
 }
 }
 
@@ -2733,7 +2749,7 @@ margin-right: 0px;
 
 @media screen and (max-width: 640px) {
       #card1246 h2{
-     max-width: 480px;
+     max-width: 420px;
 }
 }
 
