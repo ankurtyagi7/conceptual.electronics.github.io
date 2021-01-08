@@ -381,10 +381,15 @@ a.navbar-brand {
 a.navbar-brand img {
     height: 55px;
 }
+.top-header .navbar .navbar-collapse ul li a.active  {
+     
+    color: #bb1d30;
+    
+    font-weight: 1000;
+}
 
-.top-header .navbar .navbar-collapse ul li a:active {}
 .top-header .navbar .navbar-collapse ul li a:hover,
-.top-header .navbar .navbar-collapse ul li a:focus {
+ {
 	background: transparent;
 	color: #d4a81e;
 }
@@ -2406,7 +2411,7 @@ section.inner_banner h3 {
                background-color:white;
     margin : 0px auto;
     height: 500px;
-    width : 380px;
+    width : 360px;
    
     //box-shadow: 0px 5px 15px 0px;
     position: relative;
@@ -2430,7 +2435,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
            #start {
-   left:127px; 
+   left:118px; 
     top:100px;
               
             }
@@ -2456,7 +2461,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
        #qImg img{
-    width : 380px;
+    width : 360px;
     
 }
 }
@@ -2473,7 +2478,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
       #question{
-    width : 400px;
+    width : 360px;
     
 }
 }
@@ -2582,7 +2587,7 @@ section.inner_banner h3 {
     width : 160px;
     position: absolute;
     bottom :15px;
-    right : 15px;
+    right : 25px;
     padding:0px;
     text-align: right;
    background-color: white;
@@ -2629,7 +2634,7 @@ margin-right: 0px;
 @media screen and (max-width: 640px) {
       #scoreContainer{
    
-    width : 380px;
+    width : 360px;
    
 }
 }
@@ -2644,7 +2649,7 @@ margin-right: 0px;
       #scoreContainer img{
     position: absolute;
     top:100px;
-    left:160px;
+    left:150px;
 }
 }
 
@@ -2663,7 +2668,7 @@ margin-right: 0px;
 @media screen and (max-width: 640px) {
       #scoreContainer p{
     position: absolute;
-    left:169px;
+    left:159px;
 }
 }
 
@@ -2690,7 +2695,7 @@ margin-right: 0px;
 
 @media screen and (max-width: 640px) {
       #card12468 h2 {
-     max-width: 380px;
+     max-width: 360px;
 }
 }
 
@@ -2731,7 +2736,7 @@ margin-right: 0px;
 
 @media screen and (max-width: 640px) {
       #card124 h2{
-     max-width: 380px;
+     max-width: 360px;
 }
 }
 
@@ -2772,7 +2777,7 @@ margin-right: 0px;
 
 @media screen and (max-width: 640px) {
       #card1246 h2{
-     max-width: 380px;
+     max-width: 360px;
 }
 }
 
