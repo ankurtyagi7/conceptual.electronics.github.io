@@ -752,6 +752,17 @@ a.navbar-brand img {
     padding: 0 30px;
 }
 
+
+@media screen and (max-width: 640px) {
+           .tab_menu {
+   margin-top: -10px;
+               padding: 0 10px;
+                height: 140px;
+            }
+        }
+
+
+
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
     background: #002147;
     transform: skew(-30deg);
@@ -791,6 +802,12 @@ a.navbar-brand img {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 640px) {
+           .tab_menu ul li {
+   padding: 15px 0;
+            }
+        }
 
 span.icon {
     float: left;
@@ -2388,8 +2405,8 @@ section.inner_banner h3 {
 
                background-color:white;
     margin : 0px auto;
-    height: 550px;
-    width : 420px;
+    height: 500px;
+    width : 380px;
    
     //box-shadow: 0px 5px 15px 0px;
     position: relative;
@@ -2413,7 +2430,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
            #start {
-   left:150px;
+   left:127px; 
     top:100px;
               
             }
@@ -2439,7 +2456,7 @@ section.inner_banner h3 {
 
 @media screen and (max-width: 640px) {
        #qImg img{
-    width : 420px;
+    width : 380px;
     
 }
 }
@@ -2478,7 +2495,7 @@ section.inner_banner h3 {
 @media screen and (max-width: 640px) {
        #choices{
    
-        top : 300px;   
+        top : 260px;   
     
 }
 }
@@ -2495,7 +2512,7 @@ section.inner_banner h3 {
 }
 @media screen and (max-width: 640px) {
        .choice{
-    width : 85px;
+    width : 80px;
             
     
 }
@@ -2523,10 +2540,16 @@ section.inner_banner h3 {
     font-size: 3em;
 }
 
-
+@media screen and (max-width: 640px) {
+       #counter {
+   
+         font-size: 2.5em;   
+    
+}
+}
 
 #btimeGauge{
-    width : 150px;
+    width : 140px;
     height : 10px;
     border-radius: 10px;
     background-color: lightgray;
@@ -2548,7 +2571,7 @@ section.inner_banner h3 {
     width : 500px;
     position: absolute;
     bottom :25px;
-    right : 0px;
+    right : 10px;
     padding:5px;
     text-align: right;
    background-color: white;
@@ -2556,14 +2579,14 @@ section.inner_banner h3 {
 }
  @media screen and (max-width: 640px) {
        #progress{
-    width : 220px;
+    width : 160px;
     position: absolute;
     bottom :15px;
-    right : 10px;
-    padding:5px;
+    right : 15px;
+    padding:0px;
     text-align: right;
    background-color: white;
-margin-right: 10px;
+margin-right: 0px;
              
             }
         }
@@ -2606,7 +2629,7 @@ margin-right: 10px;
 @media screen and (max-width: 640px) {
       #scoreContainer{
    
-    width : 420px;
+    width : 380px;
    
 }
 }
@@ -2621,7 +2644,7 @@ margin-right: 10px;
       #scoreContainer img{
     position: absolute;
     top:100px;
-    left:185px;
+    left:160px;
 }
 }
 
@@ -2640,7 +2663,7 @@ margin-right: 10px;
 @media screen and (max-width: 640px) {
       #scoreContainer p{
     position: absolute;
-    left:194px;
+    left:169px;
 }
 }
 
@@ -2667,7 +2690,7 @@ margin-right: 10px;
 
 @media screen and (max-width: 640px) {
       #card12468 h2 {
-     max-width: 420px;
+     max-width: 380px;
 }
 }
 
@@ -2708,7 +2731,7 @@ margin-right: 10px;
 
 @media screen and (max-width: 640px) {
       #card124 h2{
-     max-width: 420px;
+     max-width: 380px;
 }
 }
 
@@ -2749,7 +2772,7 @@ margin-right: 10px;
 
 @media screen and (max-width: 640px) {
       #card1246 h2{
-     max-width: 420px;
+     max-width: 380px;
 }
 }
 
