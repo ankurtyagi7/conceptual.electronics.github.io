@@ -569,6 +569,15 @@ a.navbar-brand img {
 	background: #000;
 }
 
+
+@media screen and (max-width: 540px) {
+ .pogoSlider-nav-btn  {
+   display: none;
+  }
+}
+
+
+
 .pogoSlider-nav-btn--selected {
 	background: #d4a81e !important;
 }
