@@ -569,15 +569,6 @@ a.navbar-brand img {
 	background: #000;
 }
 
-
-@media screen and (max-width: 540px) {
- .pogoSlider-nav-btn  {
-   display: none;
-  }
-}
-
-
-
 .pogoSlider-nav-btn--selected {
 	background: #d4a81e !important;
 }
@@ -586,6 +577,11 @@ a.navbar-brand img {
     bottom: 75px;
 }
 
+@media screen and (max-width: 780px) {
+  .pogoSlider--navBottom .pogoSlider-nav {
+   display: none;
+  }
+}
 .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn {
 	display: none;
 }
@@ -2692,7 +2688,8 @@ margin-right: 0px;
 
         /*nessesary margin auto,max-width for working ofpadding*/
         #card12468 h2 {
-            background: #095a83;
+                background: #002147;
+
            
             margin: auto;
             max-width: 700px;
@@ -2712,7 +2709,8 @@ margin-right: 0px;
 
  /*nessesary margin auto,max-width for working ofpadding*/
         #card12468 {
-            background-color:  #095a83;
+            background-color:#002147;
+
             margin: auto;
            width: 100%;
             padding: 0px;
@@ -2753,8 +2751,7 @@ margin-right: 0px;
 
 /*nessesary margin auto,max-width for working ofpadding*/
         #card1246 {
-            background-color:  #095a83;
-            margin: auto;
+            background-color:#002147;          margin: auto;
            width: 100%;
             padding: 0px;
             margin-top: 0px;

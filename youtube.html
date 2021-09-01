@@ -82,7 +82,7 @@ background-color:white;
     margin-bottom: 0px;
   position: relative;
  z-index: 1;
-background-color: #095a83;
+background-color: #ffffff;
   padding-top: 20px;
      
  // border-bottom: 5px solid #e20378; 
@@ -208,107 +208,56 @@ width: 300px;
         }
      
         
-     /* populor videos start */
-      
-        
-         .our-team1{
-    text-align: center;
-    transition: all 0.5s ease 0s;
+     
+       /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 35%;
+    border:0px 0px 0px 0px;
+    background-color: white;
 }
-.our-team1:hover{
-    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 65%;
+  padding-left: 20px;
 }
-.our-team1 .pic1{
-    overflow: hidden;
-    position: relative;
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
 }
-.our-team1 .pic1:before,
-.our-team1 .pic1:after{
-    content: "";
-    width: 200%;
-    height: 80%;
-    background: rgba(38,37,37,0.8);
-    position: absolute;
-    top: -100%;
-    left: -4%;
-    transform: rotate(45deg);
-    transition: all 0.5s ease 0s;
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 0px;
+    border: none;
 }
-.our-team1 .pic1:after{
-    background: rgba(8,75,77,0.8);
-    top: auto;
-    left: auto;
-    bottom: -100%;
-    right: -4%;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.our-team1:hover .pic1:before{ top: 0; }
-.our-team1:hover .pic1:after{ bottom: 0; }
-.our-team1 .pic1 img{
-    width: 100%;
-    height: auto;
-}
-.our-team1 .social1{
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
-    margin: 0;
-    list-style: none;
-    position: absolute;
-    bottom: 45%;
-    left: 0;
-    opacity: 0;
-    z-index: 2;
-    transition: all 0.5s ease 0.3s;
+  }
 }
-.our-team1:hover .social1{ opacity: 1; }
-.our-team1 .social1 li{ display: inline-block; }
-.our-team1 .social1 li a{
-    display: block;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 20px;
-    color: #fff;
-    margin-right: 10px;
-    position: relative;
-    transition: all 0.3s ease 0s;
-}
-.our-team1 .social1 li a:after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #db162f;
-    border-radius: 0 20px 20px 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all 0.3s ease 0s;
-}
-.our-team1 .social1 li a:hover:after{ transform: rotate(180deg); }
-.our-team1 .team-content1{ padding: 20px; }
-.our-team1 .title1{
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #047168;
-    text-transform: uppercase;
-    margin-bottom: 7px;
-}
-.our-team1 .post1{
-    display: block;
-    font-size: 17px;
-    font-weight: 600;
-    color: #707070;
-    text-transform: capitalize;
-}
-@media only screen and (max-width: 990px){
-    .our-team1{ margin-bottom: 30px; }
-}
-   
-        
-        
-        
-        
+    
+     
         
         
         
@@ -484,74 +433,7 @@ width: 300px;
     
     
     
-	<!-- section -->
-    <div id="electronicsmcqs">
-    <div class="section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>Electronics </span>MCQs</h2>
-                        </div>
-					  </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                       <img class="img-responsive" src="images/Electronics%20mcq1.png" alt="#" /> 
-					   <h4><a href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg" class="link">Watch Video</a> <br><a href="https://drive.google.com/file/d/1Dbfu-ZNtHHj70zX_RA92uw7ADH5pDqmr/view?usp=sharing" class="link">Download Pdf</a> </h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/electronics%20web3.png" alt="#" />
-						<h4>Coming Soon...</h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/Electronics mcqs3.png" alt="#" />
-						<h4>Coming Soon...</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="full blog_img_popular">
-                      <img class="img-responsive" src="images/electronics%20web3.png" alt="#" />
-						<h4>Coming Soon...</h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/Electronics%20mcqs5.png" alt="#" />
-						<h4>Coming Soon...</h4>
-                    </div>
-                </div>
-				<div class="col-md-4">
-                    <div class="full blog_img_popular">
-                     
-                        <h19>For more videos and pdf of Electronics Objective Questions and answers <h7>please subscribe </h7>the conceptual electronics youtube channel.</h19>
-                       <div class="full">
-						   <a class="hvr-radial-out button-theme" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg">Watch more videos</a>
-						</div> 
-                       
-                        <!--<address> <a href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg" class="link">More
-                            videos</a></address>-->
-                        
-						
-                    </div>
-                </div>
-                
-               <!-- <div class="col-md-4">
-                    <div class="full blog_img_popular">
-                        <img class="img-responsive" src="images/electronics%20web3.png" alt="#" />
-						<h4>Intermediate Accounting</h4>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-    </div>
-    </div>
-	<!-- end section -->
+	
      
                    
     
@@ -581,159 +463,138 @@ width: 300px;
     
     
     
-    
-    
-    <footer class="footer-box4">
-        <div class="container">
-		
-		   <div class="row">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				
-							
-				<div class="newsletter_form">
-							   
-                               
-                           <div class="our-team1">
-                <div class="pic1">
-                    <img src="img/bg-img/yt%20online%20space%20quiz%20mcqs%201.png">
-                    <ul class="social1">
-                        <li><a href=" https://youtu.be/lzJx8ztawUE" >Watch</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="team-content1">
-                    <h3 class="title1"> Space quiz mcqs #1 </h3>
-                    <span class="post1">Views&#8194; &#8194;..............&#8194; &#8194;42K+</span>
-                </div>
-            </div>
-                                
-                                
-                                
-                                
-                                
-              </div>
-						 
-					</div>	
-               
-               
-               
-               
-		     
-			   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="newsletter_form">
-							   
-                               
-                           <div class="our-team1">
-                <div class="pic1">
-                    <img src="img/bg-img/yt%20online%20space%20quiz%20mcqs%202.png">
-                    <ul class="social1">
-                        <li><a href=" https://youtu.be/qWPkesPXP2A  " >Watch </a></li>
-                        
-                    </ul>
-                </div>
-                <div class="team-content1">
-                    <h3 class="title1"> Space quiz mcqs #2</h3>
-                    <span class="post1">Views&#8194; &#8194;..............&#8194; &#8194;1K+</span>
-                </div>
-            </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-							 </div>
-                   
-                   <br>
-                   
-                 <!--  <div class="newsletter_form">
-							   
-                               
-                           <div class="our-team1">
-                <div class="pic1">
-                    <img src="img/bg-img/yt%20online%20space%20quiz%20mcqs%203.png">
-                    <ul class="social1">
-                        <li><a href="#" >Watch </a></li>
-                        
-                    </ul>
-                </div>
-                <div class="team-content1">
-                    <h3 class="title1"> Space quiz mcqs #3</h3>
-                    <span class="post1">Web Developer</span>
-                </div>
-            </div>
-                                
-                                
-                 </div> -->
-                   
-                   </div>
-               
-               
-               
-			 
-				 
-				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				
-						    
-							
-							<div class="newsletter_form">
-							  <div class="our-team1">
-                <div class="pic1">
-                    <img src="img/bg-img/yt%20create%20jumper%20or%20link%20wire%20copy.png">
-                    <ul class="social1">
-                        <li><a href="https://youtu.be/5daNwcidkEc ">Watch </a></li>
-                        
-                    </ul>
-                </div>
-                <div class="team-content1">
-                    <h3 class="title1">how to create jumper or link wire</h3>
-                    <span class="post1">Views&#8194; &#8194;..............&#8194; &#8194;700+</span>
-                </div>
-            </div>
-           
-							 </div>
-						 
-					</div>	 
-			  
-			 
-			   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="newsletter_form">
-							   
-                               
-                           <div class="our-team1">
-                <div class="pic1">
-                    <img src="img/bg-img/yt%20kicad%20introduction1.png">
-                    <ul class="social1">
-                        <li><a href=" https://youtu.be/UMRBIN_zQP0  " >Watch </a></li>
-                        
-                    </ul>
-                </div>
-                <div class="team-content1">
-                    <h3 class="title1">ki-cad tutorial -1</h3>
-                    <span class="post1">Views&#8194; &#8194;..............&#8194; &#8194;400+ </span>
-                </div>
-            </div>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-							 </div>
-                   
-                   
-                   
-                   
-                   
-                   
-					</div>	 
-			  
-		   </div>
-		
-        </div>
-    </footer>
+      <div class="container">
+        
+        
+        <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <a href="https://youtu.be/lzJx8ztawUE  ">
+          <img src="images/online%20space%20quiz%20mcqs3.png" alt="image" > </a>
+     
+    </div>
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Online space Quiz | ISRO |  ISSO | Indian Space Science Olympiad (ISSO)2021</h2>
+     
+      <p>In this video of an online space quiz and MCQs on space contains objective questions and answers related to space, solar system, and space technologies for practicing  Indian Space Science Olympiad (ISSO)2021.</p>
+    </div>
+  
+   
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <a href="https://youtu.be/5daNwcidkEc ">
+          <img src="images/how%20to%20create%20link%20or%20jumper%20in%20kicad.png" alt="image" ></a>
+     
+    </div>
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>kicad tutorial in hindi || How to create jumper in kicad || pcb designing tutorial</h2>
+     
+      <p>In this video we will discuss how to create link or jumper when we design our pcb in kicad software.This video will improve pcb designing skills and the basics of pcb designing.</p>
+    </div>
+  
+   
+    </div>
+  </div>
+        
+      
+     <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <a href="https://youtu.be/loN8N_R-dHQ ">
+          <img src="images/kicad%20tutorial-component%20layout%20designing2.png" alt="image" > </a>
+     
+    </div>
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>kicad tutorial in hindi || how to make the component layout || pcb design | single-side pcb</h2>
+     
+      <p>This type of 
+component layout
+ only shows
+
+ Component’s  
+outlines, 
+references 
+values, 
+polarity, 
+first, pin indicator 
+and circuit board’s
+ outlines.</p>
+    </div>
+  
+   
+    </div>
+  </div>
+   
+        
+        
+     <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <a href="https://youtu.be/qWPkesPXP2A">
+          <img src="images/online%20space%20quiz%20mcqs%202.png" alt="image" > </a>
+     
+    </div>
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>space quiz mcqs | Abbreviations for Space Quiz</h2>
+     
+      <p>This video of space quiz mcqs | Abbreviations for Space Quiz contains abbreviations related to the Indian space program, isro , NASA, Department of Space, Satellite Communication helpful to giving the online space quiz and other competitive exams.</p>
+    </div>
+  
+   
+    </div>
+  </div>
+   
+        
+       <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <a href="https://youtu.be/VjU4J6m7Tjc ">
+         <img src="images/electronics%20major%20project%20viva%20preparation.png" alt="image" >
+        </a>
+     
+    </div>
+  
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>electronics major project viva preparation part-1 | final year project viva | electronics viva</h2>
+     
+      <p>This video is meant as a guide for diploma final year students in electronics and communication engineering to undertake mini and major project vivas or oral examinations which are now part of the requirement for their diploma 
+course.</p>
+    </div>
+  
+   
+    </div>
+  </div>
+ 
+        
+        
+        
+        
+        </div>          
+                
+   
              
     <!-- End populor videos -->     
         

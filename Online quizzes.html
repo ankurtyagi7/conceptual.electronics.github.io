@@ -34,70 +34,351 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<style>   
+
+    
+  
+    <style>
+    /* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/classy-nav.min.css);
+//@import url(css/recent uploaded pdf.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+    
+    /* :: 5.0 Hero Area */
+.hero-area {
+     border-radius: 15px 15px 0px 0px;
+    
+      margin: 0px 100px 100px;
+    margin-bottom: 0px;
+  position: relative;
+ z-index: 1;
+background-color:white;
+ // padding-top: 50px;
+     padding-bottom: 20px;
+ // border-bottom: 5px solid #e20378; 
+     background-image: url(../images/click.jpg);
+        }
+
+        
+        @media screen and (max-width: 760px) {
+  .hero-area {
+    margin: 0px 10px;
+  }
+}
+        
+        
+ .pdf-area {
     
    
     
-    .full2{ 
-    min-height: 125px;
-    background: #002147;
-        text-align: center;
-        width:100%;
-    text-align: center;
-    line-height: 110px !important;
+    margin-bottom: 0px;
+  position: relative;
+ z-index: 1;
+background-color: #ffffff;
+  padding-top: 20px;
+     
+ // border-bottom: 5px solid #e20378; 
+    // background-image: url(../images/click.jpg);
+        }
+        
+        
+        .margin{
+            background-color: #095a83;
+            text-align: center;
+          
+        }
+ .margin h444{
+            background-color: #095a83;
+            text-align: center;
+     padding: 5px 15px 35px;
+      font-size: 30px;
+    font-weight: 700;
+  color: white;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
+    font-family: 'Raleway', sans-serif;
+      border-left: 15px solid #d4a81e ;
+        border-right: 15px solid #d4a81e ;
+        }
+        
+         @media screen and (max-width: 760px) {
+ .margin h444   {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+        
+        
+        .margin2{
+            background-color: white;
+             margin: 0px 100px 100px;
+    margin-bottom: 0px;
+  
+        } 
+        
+          @media screen and (max-width: 760px) {
+  .margin2   {
+    margin: 0px 10px;
+  }
+}
+        
+/* :: 7.0 Blog Post Area */
+.single-blog-post {
+  position: relative;
+  z-index: 1; }
+
+  .single-blog-post .post-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    min-width: 200px;
+    width: 200px;
+
+      
+}
+    .single-blog-post .post-thumb a {
+      display: block; }
+
+.single-blog-post .post-thumb a img{
+     border-radius: 15px;
+width: 300px;
+    height: 120px;
+}
+
+  .single-blog-post .post-data {
+    margin-left: 20px; }
+
+    .single-blog-post .post-data .post-catagory {
+      font-size: 14px;
+      color: #e20378;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: block; }
+    .single-blog-post .post-data .post-title {
+      display: block; }
+      .single-blog-post .post-data .post-title h6 {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        line-height: 1.8;
+        font-size: 14px;
+        color: #231f1f;
+          font-size: 17px;
+          font-weight: 600;
+         }
+
+        .single-blog-post .post-data .post-title h6:hover, .single-blog-post .post-data .post-title h6:focus {
+          color: #e20378;
+            
+         }
+
+    .single-blog-post .post-data .post-meta .post-date {
+      margin-bottom: 0; }
+
+      .single-blog-post .post-data .post-meta .post-date a {
+        display: block; 
+        font-weight: 700;
+       color: crimson;
+       }
+
+        .single-blog-post .post-data .post-meta .post-date a:hover, .single-blog-post .post-data .post-meta .post-date a:focus {
+          color: #e20378; }
+   
+        
+        
+        h19 {
+            
+            
+            font-size: 20px;
+        }
+     
+    
+        
+         h21 {
+            color: gray;
+            
+            font-size: 20px;
+        }
+     
+        
+     
+       /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+    border:0px 0px 0px 0px;
+    background-color: white;
+    
+}
+
+   
+        
+        
+        
+ /* Right column */
+.centercolumn {
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+}
+        
+        
+        
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+      
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 0px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 0px;
+   margin-top: 10px;
+    border: none;
+    margin-bottom: 0px;
+    
+}
+        
+        .card h6{
+            font-size: 20px;
+           padding: 10px; 
+         text-align: left;   
+            background-color: rgba(187, 141, 211, 0.92);
+            //background-color: #ebe39d;
+            border-top: 0px solid white;
+        }
+        
+        
+        
+         @media screen and (max-width: 560px) {
+  .card h6 {
+   font-size: 13px;
+       padding: 5px;
+      
+  }
+}
+        
+
+        .bottomc{
+            font-size: 19px;
+           padding: 8px; 
+         text-align: right;   
+            background-color: #dab7f4;
+            color:  #1a191a;
+        }
+        
+       .bottomc:hover{
+             
+            background-color: #4e2353;
+            color:  azure;
+           border-left: 2px solid white;
+        }
+        
+          @media screen and (max-width: 560px) {
+  .bottomc {
+   font-size: 13px;
+       padding: 3px;
+      
+  }
+}
+        
+        
+         .bottomb{
+              font-size: 20px;
+           padding: 7px; 
+         text-align: center;   
+            color: azure;
+         background-color:#4e2353;
+           
+        } 
+        
+         .bottomb:hover{
+               
+            color: azure;
+         background-color:#4e2353;
+            
+           
+        } 
+        
+        
+     
+          @media screen and (max-width: 560px) {
+  .bottomb {
+   font-size: 13px;
+       padding: 3px;
+      
+  }
+}   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
     padding: 0;
-      } 
+  }
+}
+   */ 
+     
+        
+        
+        
+        
+        
+        
+    </style>   
     
     
-    @media screen and (max-width: 640px) {
-   .full2 {
-    min-height: 90px;
-    background: #002147;
-}
-}
     
     
-    h91{
-     font-size: 35px;
-     color: #009966;
-     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
-  
-}
-
     
-      @media screen and (max-width: 640px) {
-   h91{
-       font-size: 24px;
-    font-weight: 500;
-}
-} 
-
-
-.fw700 {
-    font-size: 45px; 
-  font-weight: 500;
-    color: #fff;
-}
-
-  
-   @media screen and (max-width: 640px) {
-   .fw700{
-       font-size: 27px;
-    font-weight: 400;
-}
-} 
-  
-
-
-
-         
-         
-   </style>
+    
+    
+    
+    
+    
+    
 </head>
 
 
-    <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
     <!-- LOADER -->
     <div id="preloader">
@@ -119,11 +400,11 @@
                     <span></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
+                     <ul class="navbar-nav">
                         <li><a class="nav-link " href="index.html">Home</a></li>
                         <li><a class="nav-link active" href="Online%20quizzes.html">Online Quizzes</a></li>
                         <li><a class="nav-link" href="download%20pdf.html">PDF</a></li>
-                        <li><a class="nav-link" href="youtube.html">Youtube Videos</a></li>
+                        <li><a class="nav-link " href="youtube.html">Youtube Videos</a></li>
 						<li><a class="nav-link" href="Electronics%20MCQs%201.html">Electronics MCQs</a></li>
 						
                     </ul>
@@ -133,23 +414,135 @@
     </header>
     <!-- End header -->
 
-    
-    <!-- section -->
+	<!-- section -->
 	
-	
-			     <div class="full2">
-				      <h91>Online <span class="txt-rotate fw700" data-period="2000" data-rotate='[ "Space", "Electronics", "Vitamins",  "Miscellaneous"  ]'></span> Quizzes </h91>
+	<section class="inner_banner">
+	  <div class="container">
+	      <div class="row">
+		      <div class="col-12">
+			     <div class="full">
+				     <h3> Online Quizzes  </h3>
 				 </div>
-			 
+			  </div>
+		  </div>
+	  </div>
+	</section>
 	
 	<!-- end section -->
     
+        
+	  <!-- ##### Hero Area Start ##### -->
+       <div class="pdf-area">  
+    <div class="hero-area">
+        
+         <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Recent Uploaded</span> Quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-slides owl-carousel">
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post d-flex align-items-center mb-50">
+                            <div class="post-thumb">
+                                <a href="Electronics%20MCQs%201.html"><img src="img/bg-img/20.png" alt=""></a>
+                            </div>
+                            <div class="post-data">
+                                <a href=" Electronics%20MCQs%201.html " class="post-title">
+                                    <h6>Electronics Practice Set #1 </h6>
+                                </a>
+                                <div class="post-meta">
+                                    <p class="post-date"><a>New</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post d-flex align-items-center mb-50">
+                            <div class="post-thumb">
+                                <a href="Paryatan%20parv%20quiz.html"><img src="img/bg-img/21.png" alt="" width="300px" height="300px"></a>
+                            </div>
+                            <div class="post-data">
+                                <a href="Paryatan%20parv%20quiz.html" class="post-title">
+                                    <h6>Prayatan Parv Quiz #1(0-25)</h6>
+                                </a>
+                                <div class="post-meta">
+                                    <p class="post-date"><a>New</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                         <!-- Single Blog Post -->
+                        <div class="single-blog-post d-flex align-items-center mb-50">
+                            <div class="post-thumb">
+                                <a href=" space quiz 1.html "><img src="img/bg-img/22.png" alt=""></a>
+                            </div>
+                            <div class="post-data">
+                                <a href="  space quiz 1.html " class="post-title">
+                                    <h6>Space Quiz MCQs #1 (0-25)</h6>
+                                </a>
+                                <div class="post-meta">
+                                    <p class="post-date"><a>New</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                          
+                        
+                        
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post d-flex align-items-center mb-50">
+                            <div class="post-thumb">
+                                <a href="vitamins%20quiz1.html"><img src="img/bg-img/23.png" alt=""></a>
+                            </div>
+                            <div class="post-data">
+                                <a href=" vitamins%20quiz1.html " class="post-title">
+                                    <h6>Vitamins Quiz MCQs #1 (0-25)</h6>
+                                </a>
+                                <div class="post-meta">
+                                    <p class="post-date"><a> New </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+         </div>
+    <!-- ##### Hero Area End ##### -->
+    
+   
     
     
+    
+	
      
+                   
+    
+    
+    
+    
     
   
-      <!-- Start online quiz -->
+      
+    <!-- Start populor videos  -->
     
         <div class="section layout_padding padding_bottom-0">
         <div class="container">
@@ -159,7 +552,7 @@
                 <div class="col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_center">
-						   <h2><span>Take  the more </span> Quiz</h2>
+						   <h2><span> More Practice    </span> Quizzes</h2>
                         </div>
 					  </div>
                 </div>
@@ -169,179 +562,242 @@
     
     
     
-    
-    
-    <footer class="footer-box2">
-        <div class="container">
-		
-		   <div class="row">
-		    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h8>     </h8>
-							
-							<div class="newsletter_form">
-							   <!-- <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>-->
-                                <img src="images/p3.png"width="100%" alt="#" />
-                                
-							 </div>
-						 </div>
-					</div>	 
-		     
-			   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h8>Space  Quizzes</h8>
-							
-							<div class="newsletter_form">
-							   <!-- <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>-->
-                                <a class="bottom9" href="space%20quiz%201.html">Space Quiz #1 (01-25)</a>
-                                <br>
-                                 <a class="bottom9" href="space%20quiz%202.html">Space Quiz #2 (26-50)</a>
-                                <!-- <a class="bottom9" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg">Space Quiz #2</a>
-                                 <br>
-                                 <a class="bottom9" href="https://www.facebook.com/ankurtyagi.00">Space Quiz #3</a>
-                                <br>
-                                 <a class="bottom9" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg">Space Quiz #4</a>-->
-							 </div>
-						 </div>
-					</div>	 
-			 
-				 
-				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h8>Electronics MCQs</h8>
-							
-							<div class="newsletter_form">
-							   <!-- <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>-->
-                                <a class="bottom9" href="Electronics%20MCQs%201.html">Electronics MCQs #1</a>
-                                <br>
-                                 <a class="bottom9" href="Electronics%20MCQs%202.html">Electronics MCQs #2</a>
-                                 <div class="footer_blog full white_fonts">
-						     <h8>Miscellaneous Quizzes  </h8>
-							
-							<div class="newsletter_form">
-							   <!-- <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>-->
-                                <a class="bottom9" href="Paryatan%20parv%20quiz.html">Paryatan Parv Quiz</a>
-                                
-                                
-							 </div>
-						 </div>
-							 </div>
-						 </div>
-					</div>	 
-			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h8>Vitamins Quizzes</h8>
-							
-							<div class="newsletter_form">
-							   <!-- <form action="index.html">
-								   <input type="email" placeholder="Your Email" name="#" required />
-								   <button>Submit</button>
-								</form>-->
-                                <a class="bottom9" href="vitamins%20quiz1.html">Vitamins Quiz #1</a>
-                                <br>
-                                 <a class="bottom9" href="vitamins%20quiz2.html">Vitamins Quiz #2</a>
-                                
-							 </div>
-						 </div>
-					</div>	 
-			  
-		   </div>
-		
-        </div>
-    </footer>
-             
-    <!-- End online quiz -->   
+      <div class="container">
         
-    
-    
-    
-    
-    
-    
-    
-    
-	<!-- section5 -->
-    <div class="section layout_padding padding_bottom-0">
+         <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 
                 
                 <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-						   <h2><span>Electronics MCQs </span>#1</h2>
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Electronics</span> Practice Sets</h2>
                         </div>
 					  </div>
                 </div>
 			  </div>
            </div>
         </div>
-        
-        
-        
-         <!-- Video banner 400 px height 
-    <div id="tm-video-container">
-        <video autoplay muted loop id="tm-video">
-            <source src="video/Computer - 56888.mp4" type="video/mp4">
-        </video>  
-        <i id="tm-video-control-button" class="fas fa-pause"></i>
-    </div>  -->
-        
-        
-         <div id="card12468">
-            <h2>&#8194 </h2>
-        </div>
-        
-        
-        
-         <div id="card1246">
-            <h2>&#8194 </h2>
-        </div>
-        
-	<!-- end section5 -->
-	<!-- section -->
-        <div class="hero">
-            
-   <div id="container2">
-        <div id="start">Start Quiz!</div>
-        <div id="quiz" style="display: none">
-            <div id="question"></div>
-            <div id="qImg"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-            </div>
-            <div id="timer">
-                <div id="counter"></div>
-                <div id="btimeGauge"></div>
-                <div id="timeGauge"></div>
-            </div>
-            <div id="progress"></div>
-        </div>
-        <div id="scoreContainer" style="display: none"></div>
+          
+          
+       <!-- electronics practice set -->   
+          
+          
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Electronics MCQs #1 (0-25)</h6>  
+     
+    </div> 
     </div>
-          </div>  
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://www.youtube.com/channel/UCCP0ZuV-PkN2uUsSSqNbJFg">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="Electronics%20MCQs%201.html">Start the Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+
+  
+          <!--END-->
+       
+      
+     
+     
         
-        <!-- end section -->
+          <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Practice Space </span>  Quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>  
+          
+          
+          
+      <!-- pratice space quiz-->    
+        <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Space Quiz #1 (0-25)</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://youtu.be/lzJx8ztawUE">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="space%20quiz%201.html">Start the Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+          
+          <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Space Quiz #2 (26-50)</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://youtu.be/lzJx8ztawUE">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="space%20quiz%202.html">Start the Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+       <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Practice Vitamins</span>     Quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>  
+              
+          
+          
+     <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Vitamins Quiz #1 (0-25)</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://youtu.be/yQ7_aDIiTEo">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="vitamins%20quiz1.html">Start the Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
     
-    <div id="card124">
-            <h2>&#8194 </h2>
-        </div>
+          
+          
+              
+          
+       <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Prayatan Parv</span>     Quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>  
+              
+          
+          
+     <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Prayatan Parv #1 (0-25)</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://youtu.be/bF3jypP_1qs">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="Paryatan%20parv%20quiz.html">Start the Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+          
+          
+        
+        </div>          
+                
+   
+             
+    <!-- End populor videos -->     
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
     
     <!-- Start Footer -->
     <footer class="footer-box">
@@ -364,8 +820,8 @@
 			       <div class="footer_blog footer_menu white_fonts">
 						    <h3>Quick links</h3>
 						    <ul> 
-							  <li><a href="Electronics%20MCQs%201.html">> Electronics MCQs</a></li>
-							  <li><a href="youtube.html">> Youtube Video</a></li>
+							  <li><a href="index.html">> Electronics MCQs</a></li>
+							  <li><a href="youtube.html">> Youtube Videos</a></li>
 							  <li><a href="download%20pdf.html">> Download pdf</a></li>
 							  <li><a href="ki-cad%20software.html">> KI-CAD software tutorials</a></li>
 							  <li><a href="Online%20quizzes.html">>  Online Quizzes</a></li>
@@ -407,12 +863,12 @@
     </footer>
              
     <!-- End Footer -->
- 
+
     <div class="footer_bottom">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© Copyrights 2021  design by Ankur Tyagi</p>
+                    <p class="crp">© Copyrights 2021 design by Ankur Tyagi</p>
                 </div>
             </div>
         </div>
@@ -434,9 +890,17 @@
     <script src="js/isotope.min.js"></script>
     <script src="js/images-loded.min.js"></script>
     <script src="js/custom.js"></script>
-        
-         <script src="js/myanimation.js"></script>
-        
+    
+     <!--  recent uploaded videos animation -->
+
+   
+    <script src="js/plugins/plugins.js"></script>
+   
+    <script src="js/active.js"></script>
+    
+    
+    
+    
 	<script>
 	/* counter js */
 
@@ -547,347 +1011,7 @@ jQuery(function ($) {
         
         
         
-        
-  // select all elements
-const start = document.getElementById("start");
-const quiz = document.getElementById("quiz");
-const question = document.getElementById("question");
-const qImg = document.getElementById("qImg");
-const choiceA = document.getElementById("A");
-const choiceB = document.getElementById("B");
-const choiceC = document.getElementById("C");
-const choiceD = document.getElementById("D");
-const counter = document.getElementById("counter");
-const timeGauge = document.getElementById("timeGauge");
-const progress = document.getElementById("progress");
-const scoreDiv = document.getElementById("scoreContainer");
-
-// create our questions
-let questions = [
-     {
-        question : "  ",
-        imgSrc : "img/1a.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "A"
-    },{
-        question : "   ",
-        imgSrc : "img/2a.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
-    },{
-        question : "    ",
-        imgSrc : "img/3a.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "A"
-    },{
-        question : "   ",
-        imgSrc : "img/4a.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "C"
-    },{
-        question : "     ",
-        imgSrc : "img/5a.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
-    },{
-        question : "     ",
-        imgSrc : "img/6.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "C"
-    },{
-        question : "     ",
-        imgSrc : "img/7.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "D"
-    },{
-        question : "    ",
-        imgSrc : "img/8.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "C"
-    },{
-        question : "    ",
-        imgSrc : "img/9.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "A"
-    },{
-        question : "    ",
-        imgSrc : "img/10.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "A"
-    },{
-        question : "     ",
-        imgSrc : "img/11.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "C"
-    },{
-        question : " ",
-        imgSrc : "img/12.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "C"
-    },{
-        question : "      ",
-        imgSrc : "img/13.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "D"
-    },{
-        question : "     ",
-        imgSrc : "img/14.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
-    },{
-        question : "       ",
-        imgSrc : "img/15.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
-    },{
-        question : "      ",
-        imgSrc : "img/16.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "C"
-    },{
-        question : "      ",
-        imgSrc : "img/17.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "D"
-    },{
-        question : "       ",
-        imgSrc : "img/18.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "C" 
-    },{
-        question : "        ",
-        imgSrc : "img/19.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "D"
-    },{
-        question : "      ",
-        imgSrc : "img/20.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "A"
-    },{
-        question : "      ",
-        imgSrc : "img/21.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "A"
-    },{
-        question : "What does HTML stand for?",
-        imgSrc : "img/22.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD : "d",
-        correct : "C"
-    },{
-        question : "    ",
-        imgSrc : "img/23.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B" 
-   
-    },{
-        question : "    ",
-        imgSrc : "img/24.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
-    },{
-        question : "     ",
-        imgSrc : "img/25.png",
-        choiceA : "a",
-        choiceB : "b",
-        choiceC : "c",
-        choiceD :"d",
-        correct : "B"
        
-    },
-];
-
-// create some variables
-
-const lastQuestion = questions.length - 1;
-let runningQuestion = 0;
-let count = 0;
-const questionTime = 60; // 60s
-const gaugeWidth = 140; // 150px
-const gaugeUnit = gaugeWidth / questionTime;
-let TIMER;
-let score = 0;
-
-// render a question
-function renderQuestion(){
-    let q = questions[runningQuestion];
-    
-    question.innerHTML = "<p>"+ q.question +"</p>";
-    qImg.innerHTML = "<img src="+ q.imgSrc +">";
-    choiceA.innerHTML = q.choiceA;
-    choiceB.innerHTML = q.choiceB;
-    choiceC.innerHTML = q.choiceC;
-    choiceD.innerHTML = q.choiceD;
-}
-
-start.addEventListener("click",startQuiz);
-
-// start quiz
-function startQuiz(){
-    start.style.display = "none";
-    renderQuestion();
-    quiz.style.display = "block";
-    renderProgress();
-    renderCounter();
-    TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
-}
-
-// render progress
-function renderProgress(){
-    for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
-        progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
-    }
-}
-
-// counter render
-
-function renderCounter(){
-    if(count <= questionTime){
-        counter.innerHTML = count;
-        timeGauge.style.width = count * gaugeUnit + "px";
-        count++
-    }else{
-        count = 0;
-        // change progress color to red
-        answerIsWrong();
-        if(runningQuestion < lastQuestion){
-            runningQuestion++;
-            renderQuestion();
-        }else{
-            // end the quiz and show the score
-            clearInterval(TIMER);
-            scoreRender();
-        }
-    }
-}
-
-// checkAnwer
-
-function checkAnswer(answer){
-    if( answer == questions[runningQuestion].correct){
-        // answer is correct
-        score++;
-        // change progress color to green
-        answerIsCorrect();
-    }else{
-        // answer is wrong
-        // change progress color to red
-        answerIsWrong();
-    }
-    count = 0;
-    if(runningQuestion < lastQuestion){
-        runningQuestion++;
-        renderQuestion();
-    }else{
-        // end the quiz and show the score
-        clearInterval(TIMER);
-        scoreRender();
-    }
-}
-
-// answer is correct
-function answerIsCorrect(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
-}
-
-// answer is Wrong
-function answerIsWrong(){
-    document.getElementById(runningQuestion).style.backgroundColor = "#f00";
-}
-
-// score render
-function scoreRender(){
-    scoreDiv.style.display = "block";
-    
-    // calculate the amount of question percent answered by the user
-    const scorePerCent = Math.round(100 * score/questions.length);
-    
-    // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
-    
-    scoreDiv.innerHTML = "<img src="+ img +">";
-    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
-}      
-        
-        
-        
-        
         
         
         
