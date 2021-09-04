@@ -261,9 +261,11 @@ width: 300px;
             font-size: 20px;
            padding: 10px; 
          text-align: left;   
-            background-color: rgba(187, 141, 211, 0.92);
-            //background-color: #ebe39d;
+         background-color: rgba(187, 141, 211, 0.45);
+             //border-radius: 30px 30px 0px 0px;
+           // background-color: #ebe39d;
             border-top: 0px solid white;
+           // border-bottom: 3px solid grey;
         }
         
         
@@ -279,24 +281,34 @@ width: 300px;
 
         .bottomc{
             font-size: 19px;
+            color: azure;
            padding: 8px; 
-         text-align: right;   
-            background-color: #d4a81e;
-            color:  azure;
+         text-align: center;   
+            background: #284020;
+            background: -moz-linear-gradient(#4f93ef, #003366);
+            background: -o-linear-gradient(#4f93ef, #003366);
+            background: -webkit-linear-gradient(#4f93ef, #003366);
+          // border-radius: 15px 0px 15px 0px;
+            -moz-border-radius: 15px 0px 15px 0px;
+            -webkit-border: 15px 0px 15px 0px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
         }
         
        .bottomc:hover{
              
-            background-color: #4e2353;
-            color:  azure;
-           border-left: 2px solid white;
+         color:azure;
+             background: linear-gradient(#003366, #4f93ef);
+            opacity: 0.8;
+            transition: all ease-out 0.2s;
         }
         
           @media screen and (max-width: 560px) {
   .bottomc {
    font-size: 13px;
        padding: 3px;
-      
+       
   }
 }
         
@@ -306,15 +318,27 @@ width: 300px;
            padding: 7px; 
          text-align: center;   
             color: azure;
-         background-color:#4e2353;
+          background: linear-gradient(#dc143c, #800000);
+             // border-radius: 15px 0px 15px 0px;
+              -moz-border-radius: 15px 0px 15px 0px;
+            -webkit-border: 15px 0px 15px 0px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            cursor: pointer;
+            color: #fff;
+            opacity: none;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px #444;
            
         } 
         
          .bottomb:hover{
-               
-            color: azure;
-         background-color:#4e2353;
-             border-right: 2px solid white;
+               color:azure;
+             background: linear-gradient(#800000, #dc143c);
+            opacity: 0.8;
+            transition: all ease-out 0.2s;
+             
            
         } 
         
@@ -359,6 +383,28 @@ width: 300px;
      
         
         
+        h100{
+            margin-bottom: 20px;
+            padding: 0px;
+          font-size: 25px;
+           color: #520b9a;
+            font-weight: 600;
+            border-bottom: 2px solid #d4a81e;
+   /* background-image: url(images/heading_main_border.png);
+    background-position: left bottom; 
+    background-repeat: no-repeat;*/
+           
+            
+        }    
+        
+        
+         @media screen and (max-width: 560px) {
+  h100 {
+   font-size: 18px;
+     font-weight: 600;  
+      
+  }
+}
         
         
         
@@ -564,7 +610,7 @@ width: 300px;
     
       <div class="container">
         
-         <div class="section layout_padding padding_bottom-0">
+        <!-- <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 
@@ -578,11 +624,11 @@ width: 300px;
                 </div>
 			  </div>
            </div>
-        </div>
+        </div> -->
           
           
        <!-- electronics practice set -->   
-          
+   <h100>Electronics Practice Sets</h100>        
           
 <div class="row">
     <div class="leftcolumn">
@@ -616,7 +662,7 @@ width: 300px;
      
      
         
-          <div class="section layout_padding padding_bottom-0">
+         <!-- <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 
@@ -630,11 +676,13 @@ width: 300px;
                 </div>
 			  </div>
            </div>
-        </div>  
+        </div>  -->
           
           
           
-      <!-- pratice space quiz-->    
+      <!-- pratice space quiz-->  
+           <h100>Space Quiz Practice sets</h100>
+          
         <div class="row">
     <div class="leftcolumn">
     <div class="card">
@@ -688,7 +736,7 @@ width: 300px;
 </div>
           
           
-       <div class="section layout_padding padding_bottom-0">
+     <!--  <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 
@@ -702,9 +750,11 @@ width: 300px;
                 </div>
 			  </div>
            </div>
-        </div>  
-              
+        </div>  -->
           
+          
+          
+       <h100>Vitamins Quiz Practice Sets</h100>    
           
      <div class="row">
     <div class="leftcolumn">
@@ -735,7 +785,7 @@ width: 300px;
           
               
           
-       <div class="section layout_padding padding_bottom-0">
+      <!-- <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 
@@ -749,10 +799,10 @@ width: 300px;
                 </div>
 			  </div>
            </div>
-        </div>  
+        </div>  -->
               
           
-          
+      <h100>Prayatan Parv Quiz Practice Sets</h100>      
      <div class="row">
     <div class="leftcolumn">
     <div class="card">
