@@ -213,55 +213,253 @@ width: 300px;
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 35%;
+  width: 50%;
     border:0px 0px 0px 0px;
     background-color: white;
+    
 }
 
+   
+        
+        
+        
+ /* Right column */
+.centercolumn {
+  float: left;
+  width: 25%;
+  padding-left: 0px;
+}
+        
+        
+        
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 65%;
-  padding-left: 20px;
+  width: 25%;
+  padding-left: 0px;
+      
 }
 
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Add a card effect for articles */
 .card {
    background-color: white;
-   padding: 20px;
-   margin-top: 0px;
+   padding: 0px;
+   margin-top: 10px;
     border: none;
+    margin-bottom: 0px;
+    margin: 5px;
+    
 }
+        
+        .card h6{
+            font-size: 20px;
+           padding: 10px; 
+         text-align: left;   
+         background-color: rgba(187, 141, 211, 0.45);
+             //border-radius: 30px 30px 0px 0px;
+           // background-color: #ebe39d;
+            border-top: 0px solid white;
+           // border-bottom: 3px solid grey;
+        }
+        
+        
+        
+         @media screen and (max-width: 560px) {
+  .card h6 {
+   font-size: 13px;
+       padding: 5px;
+      
+  }
+}
+        
 
+        .bottomc{
+            font-size: 19px;
+            color: azure;
+           padding: 8px; 
+         text-align: center;   
+            background: #284020;
+            background: -moz-linear-gradient(#4f93ef, #003366);
+            background: -o-linear-gradient(#4f93ef, #003366);
+            background: -webkit-linear-gradient(#4f93ef, #003366);
+          // border-radius: 15px 0px 15px 0px;
+            -moz-border-radius: 15px 0px 15px 0px;
+            -webkit-border: 15px 0px 15px 0px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+             border-radius: 10px;
+            
+        }
+        
+       .bottomc:hover{
+             
+         color:azure;
+             background: linear-gradient(#003366, #4f93ef);
+            opacity: 0.8;
+            transition: all ease-out 0.2s;
+        }
+        
+          @media screen and (max-width: 560px) {
+  .bottomc {
+   font-size: 13px;
+       padding: 3px;
+        border-radius: 5px;
+  }
+}
+        
+        
+         .bottomb{
+              font-size: 20px;
+           padding: 7px; 
+         text-align: center;   
+            color: azure;
+          background: linear-gradient(#dc143c, #800000);
+            // border-radius: 15px 0px 15px 0px;
+              -moz-border-radius: 15px 0px 15px 0px;
+            -webkit-border: 15px 0px 15px 0px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+            cursor: pointer;
+            color: #fff;
+            opacity: none;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px #444;
+             border-radius: 10px;
+           
+        } 
+        
+         .bottomb:hover{
+               color:azure;
+             background: linear-gradient(#800000, #dc143c);
+            opacity: 0.8;
+            transition: all ease-out 0.2s;
+             
+           
+        } 
+        
+        
+     
+          @media screen and (max-width: 560px) {
+  .bottomb {
+   font-size: 13px;
+       padding: 3px;
+       border-radius: 5px;
+  }
+}   
+        
+        
+        
+           .bottomd {
+               background-color: antiquewhite;
+            text-align: center;
+             font-size: 20px;
+           padding: 7px; 
+             
+           
+        } 
+        
+        
+     
+          @media screen and (max-width: 560px) {
+  .bottomd {
+   font-size: 13px;
+       padding: 3px;
+       border-radius: 5px;
+  }
+}   
+        
+        
+        
+        
+        
+        
+        
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+    
 }
 
 
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
   }
 }
-    
+   */ 
      
         
         
+        h100{
+            margin-bottom: 20px;
+            padding: 0px;
+          font-size: 25px;
+           color: #520b9a;
+            font-weight: 600;
+            border-bottom: 2px solid #d4a81e;
+   /* background-image: url(images/heading_main_border.png);
+    background-position: left bottom; 
+    background-repeat: no-repeat;*/
+           
+            
+        }    
         
         
+         @media screen and (max-width: 560px) {
+  h100 {
+   font-size: 18px;
+     font-weight: 600;  
+      
+  }
+}
+        
+ .number h6 {
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 69px;
+  color: #fff;
+ padding: 15px;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 69px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.first-number h6 {
+  background-image: url(images/features-number-01.png);
+}       
+        
+       
+
+.second-number h6 {
+  background-image: url(images/features-number-02.png);
+}       
+        
+      .third-number h6 {
+  background-image: url(images/features-number-03.png);
+}  
+        
+        
+      .fourth-number h6 {
+  background-image: url(images/features-number-04.png);
+}  
         
         
     </style>   
@@ -305,8 +503,8 @@ width: 300px;
                         <li><a class="nav-link " href="index.html">Home</a></li>
                         <li><a class="nav-link" href="Online%20quizzes.html">Online Quizzes</a></li>
                         <li><a class="nav-link" href="download%20pdf.html">PDF</a></li>
-                        <li><a class="nav-link active" href="youtube.html">Youtube Videos</a></li>
-						<li><a class="nav-link" href="I.T.I.%20Papers.html">I.T.I. Papers</a></li>
+                        <li><a class="nav-link " href="youtube.html">Youtube Videos</a></li>
+						<li><a class="nav-link active" href="I.T.I.%20Papers.html">I.T.I. Papers</a></li>
 						
                     </ul>
                 </div>
@@ -322,7 +520,7 @@ width: 300px;
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3> Youtube  </h3>
+				     <h3> Trade- Electrician </h3>
 				 </div>
 			  </div>
 		  </div>
@@ -330,6 +528,60 @@ width: 300px;
 	</section>
 	
 	<!-- end section -->
+    
+    
+    
+    <!-- section -->
+    <div class="section margin-top_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 layout_padding_2">
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+						   <h2><span> Previous Year Question Paper with Answer For</span>  Trade- Electrician</h2>
+                        </div>
+						<div class="full">
+						  <p>Hello friends, I know that all of you need Electrician MCQs or Multiple Choice Questions. So I have given ITI ITI Electrician Objective Question Answer in Hindi 2021 based on NIMI pattern for all of you. These questions are 100% asked in the ITI exam.<br>
+                              
+The solved question paper of I.T.I. Trade Electrician, all subject including Engineering Drawing,Trade-Practical,Trade-Theory, WCS, and other Subject have been given below in PDF to download free. In this Website, we have shared the best possible tactics you can follow while revision of I.T.I. Online or OMR type exam. As examination is knocking at the door, students should have started solving the previous year I.T.I. question papers. This paper will give student important questions and you get a feel of how the actual final exam will be conducted.<br>
+                              
+            By solving I.T.I. previous year question papers, students will be able to get an idea about the nature of questions that will be asked in the exam. 
+                              
+                              
+                              
+                              
+                                            </p>
+						</div>
+					
+                    </div>
+                </div>
+				<div class="col-md-6">
+                    <div class="full">
+                        
+                        <img src="images/2s.png" alt="#" > 
+                                           
+                        
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- end section -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
         
 	  <!-- ##### Hero Area Start ##### -->
@@ -344,7 +596,7 @@ width: 300px;
                 <div class="col-md-12">
                     <div class="full0">
                         <div class="heading_main text_align_center0">
-						   <h2><span>Recent</span> Uploaded</h2>
+						   <h2><span>Recent Uploaded</span> Question Papers</h2>
                         </div>
 					  </div>
                 </div>
@@ -359,14 +611,14 @@ width: 300px;
                         <!-- Single Blog Post -->
                         <div class="single-blog-post d-flex align-items-center mb-50">
                             <div class="post-thumb">
-                                <a href=" https://youtu.be/5daNwcidkEc "><img src="img/bg-img/yt%20create%20jumper%20or%20link%20wire%20copy.png" alt=""></a>
+                                <a href="Electronics%20MCQs%201.html"><img src="img/bg-img/class%20board.png" alt=""></a>
                             </div>
                             <div class="post-data">
-                                <a href=" https://youtu.be/5daNwcidkEc " class="post-title">
-                                    <h6>How to create link wire or jumper</h6>
+                                <a href=" Electronics%20MCQs%201.html " class="post-title">
+                                    <h6>Electrician Practice_ Set 01 </h6>
                                 </a>
                                 <div class="post-meta">
-                                    <p class="post-date"><a>New</a></p>
+                                    <p class="post-date"><a>10-OCT-2021</a></p>
                                 </div>
                             </div>
                         </div>
@@ -374,14 +626,14 @@ width: 300px;
                         <!-- Single Blog Post -->
                         <div class="single-blog-post d-flex align-items-center mb-50">
                             <div class="post-thumb">
-                                <a href="https://youtu.be/VjU4J6m7Tjc  "><img src="img/bg-img/yt%20electronics%20major%20project%20viva%20preparation.png" alt="" width="300px" height="300px"></a>
+                                <a href="https://drive.google.com/file/d/1eYehbkNhobwdrroumvg-rNNmitti5lvX/view?usp=sharing"><img src="img/bg-img/class%20board.png" alt="" width="300px" height="300px"></a>
                             </div>
                             <div class="post-data">
-                                <a href="https://youtu.be/VjU4J6m7Tjc " class="post-title">
-                                    <h6>Electronics Major project viva preparation</h6>
+                                <a href="https://drive.google.com/file/d/1eYehbkNhobwdrroumvg-rNNmitti5lvX/view?usp=sharing" class="post-title">
+                                    <h6> Electrician Practical 2019(1<sup>st</sup> Year) S</h6>
                                 </a>
                                 <div class="post-meta">
-                                    <p class="post-date"><a>New</a></p>
+                                    <p class="post-date"><a>10-OCT-2021</a></p>
                                 </div>
                             </div>
                         </div>
@@ -391,14 +643,14 @@ width: 300px;
                          <!-- Single Blog Post -->
                         <div class="single-blog-post d-flex align-items-center mb-50">
                             <div class="post-thumb">
-                                <a href=" https://youtu.be/yQ7_aDIiTEo "><img src="img/bg-img/yt%20Important%20vitamins%20mcq%20copy.png" alt=""></a>
+                                <a href="https://drive.google.com/file/d/14ahJfMZlq9r2g20oB92XjGc8-uMduRey/view?usp=sharing"><img src="img/bg-img/class%20board.png" alt=""></a>
                             </div>
                             <div class="post-data">
-                                <a href=" https://youtu.be/yQ7_aDIiTEo " class="post-title">
-                                    <h6>Vitamins MCQs</h6>
+                                <a href=" https://drive.google.com/file/d/14ahJfMZlq9r2g20oB92XjGc8-uMduRey/view?usp=sharing " class="post-title">
+                                    <h6>Paper IV ED 2019(1<sup>st</sup> year) back</h6>
                                 </a>
                                 <div class="post-meta">
-                                    <p class="post-date"><a>New</a></p>
+                                    <p class="post-date"><a>10- OCT-2021</a></p>
                                 </div>
                             </div>
                         </div>
@@ -409,14 +661,14 @@ width: 300px;
                         <!-- Single Blog Post -->
                         <div class="single-blog-post d-flex align-items-center mb-50">
                             <div class="post-thumb">
-                                <a href="https://youtu.be/lzJx8ztawUE  "><img src="img/bg-img/yt%20online%20space%20quiz%20mcqs%201.png" alt=""></a>
+                                <a href="https://drive.google.com/file/d/1zQGwwuGtzqHE-rBr5MMi6x2mFGH4AgTL/view?usp=sharing"><img src="img/bg-img/class%20board.png" alt=""></a>
                             </div>
                             <div class="post-data">
-                                <a href=" https://youtu.be/lzJx8ztawUE " class="post-title">
-                                    <h6>Online Space Quiz MCQs-1</h6>
+                                <a href=" https://drive.google.com/file/d/1zQGwwuGtzqHE-rBr5MMi6x2mFGH4AgTL/view?usp=sharing " class="post-title">
+                                    <h6>Paper III ED 2018(2<sup>nd</sup> year) back</h6>
                                 </a>
                                 <div class="post-meta">
-                                    <p class="post-date"><a> New </a></p>
+                                    <p class="post-date"><a> 10-OCT-2021 </a></p>
                                 </div>
                             </div>
                         </div>
@@ -453,7 +705,7 @@ width: 300px;
                 <div class="col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_center">
-						   <h2><span>Our Popular </span> Videos</h2>
+						   <h2><span> Practice More    </span> Questions Papers</h2>
                         </div>
 					  </div>
                 </div>
@@ -465,132 +717,275 @@ width: 300px;
     
       <div class="container">
         
-        
-        <div class="row">
-  <div class="leftcolumn">
+        <!-- <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Electronics</span> Practice Sets</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div> -->
+          <div class="first-number number">
+                    <h6>01</h6>
+                  </div>  
+          
+       <!-- electronics practice set -->   
+   <h100>Engineering Drawing</h100>        
+          
+<div class="row">
+    <div class="leftcolumn">
     <div class="card">
+       <h6>Paper IV ED 2019(1<sup>st</sup> year) back</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomd">13-Sep-2021</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="https://drive.google.com/file/d/14ahJfMZlq9r2g20oB92XjGc8-uMduRey/view?usp=sharing">Download PDF</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Paper III ED 2018(2<sup>nd</sup> year) back</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomd">13-Sep-2021</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="https://drive.google.com/file/d/1zQGwwuGtzqHE-rBr5MMi6x2mFGH4AgTL/view?usp=sharing">Download PDF</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+  
+          <!--END-->
+       
       
-      <a href="https://youtu.be/lzJx8ztawUE  ">
-          <img src="images/online%20space%20quiz%20mcqs3.png" alt="image" > </a>
      
-    </div>
-  
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>Online space Quiz | ISRO |  ISSO | Indian Space Science Olympiad (ISSO)2021</h2>
      
-      <p>In this video of an online space quiz and MCQs on space contains objective questions and answers related to space, solar system, and space technologies for practicing  Indian Space Science Olympiad (ISSO)2021.</p>
-    </div>
-  
-   
-    </div>
-  </div>
-
-  <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      
-      <a href="https://youtu.be/5daNwcidkEc ">
-          <img src="images/how%20to%20create%20link%20or%20jumper%20in%20kicad.png" alt="image" ></a>
-     
-    </div>
-  
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>kicad tutorial in hindi || How to create jumper in kicad || pcb designing tutorial</h2>
-     
-      <p>In this video we will discuss how to create link or jumper when we design our pcb in kicad software.This video will improve pcb designing skills and the basics of pcb designing.</p>
-    </div>
-  
-   
-    </div>
-  </div>
         
-      
-     <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      
-      <a href="https://youtu.be/loN8N_R-dHQ ">
-          <img src="images/kicad%20tutorial-component%20layout%20designing2.png" alt="image" > </a>
-     
-    </div>
-  
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>kicad tutorial in hindi || how to make the component layout || pcb design | single-side pcb</h2>
-     
-      <p>This type of 
-component layout
- only shows
-
- Component’s  
-outlines, 
-references 
-values, 
-polarity, 
-first, pin indicator 
-and circuit board’s
- outlines.</p>
-    </div>
-  
-   
-    </div>
-  </div>
-   
-        
-        
-     <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      
-      <a href="https://youtu.be/qWPkesPXP2A">
-          <img src="images/online%20space%20quiz%20mcqs%202.png" alt="image" > </a>
-     
-    </div>
-  
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>space quiz mcqs | Abbreviations for Space Quiz</h2>
-     
-      <p>This video of space quiz mcqs | Abbreviations for Space Quiz contains abbreviations related to the Indian space program, isro , NASA, Department of Space, Satellite Communication helpful to giving the online space quiz and other competitive exams.</p>
-    </div>
-  
-   
-    </div>
-  </div>
-   
-        
+         <!-- <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Practice Space </span>  quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>  -->
+          
+          
+         <div class="second-number number">
+                    <h6>02</h6>
+                  </div>  
+      <!-- pratice space quiz-->  
+           <h100>Trade Practical-Electrician</h100>
+          
        <div class="row">
-  <div class="leftcolumn">
+    <div class="leftcolumn">
     <div class="card">
-      
-      <a href="https://youtu.be/VjU4J6m7Tjc ">
-         <img src="images/electronics%20major%20project%20viva%20preparation.png" alt="image" >
-        </a>
+       <h6> Electrician Practical 2019(1<sup>st</sup> Year) S</h6>  
      
+    </div> 
     </div>
-  
-  </div>
-  <div class="rightcolumn">
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomd">14-Sep-2021</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
     <div class="card">
-      <h2>electronics major project viva preparation part-1 | final year project viva | electronics viva</h2>
+      <a class="bottomc" href="https://drive.google.com/file/d/1eYehbkNhobwdrroumvg-rNNmitti5lvX/view?usp=sharing">Download PDF</a>
      
-      <p>This video is meant as a guide for diploma final year students in electronics and communication engineering to undertake mini and major project vivas or oral examinations which are now part of the requirement for their diploma 
-course.</p>
+     
+    </div> 
     </div>
-  
-   
+            
+</div>
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Electrician Practical 2018(2<sup>nd</sup> Year) S</h6>  
+     
+    </div> 
     </div>
-  </div>
- 
-        
-        
-        
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomd">16-Sep-2021</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="https://drive.google.com/file/d/1oDUSTLQsg9YMyhOndfpnSgPHRDmL7xYT/view?usp=sharing">Download PDF</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+     <!--  <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full0">
+                        <div class="heading_main text_align_center0">
+						   <h2><span>Practice Vitamins</span>     Quiz</h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>  -->
+          
+       
+          
+          
+          
+         <div class="third-number number">
+                    <h6>03</h6>
+                  </div>  
+      <!-- pratice space quiz-->  
+           <h100>Trade Theory-Electrician</h100>
+          
+       <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Trade Theory 2018 2nd Year </h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomd">16-Apr-2021</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="https://drive.google.com/file/d/17PoGR3ZD2TppyDWKAVG4j986UWoTmCXo/view?usp=sharing">Download PDF</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+
+             
+          
+        <!-- <div class="fourth-number number">
+                    <h6>04</h6>
+                  </div>  --> 
+
+
+ <div class="section layout_padding padding_bottom-0">
+        <div class="container">
+            <div class="row">
+                
+                
+                <div class="col-md-12">
+                    <div class="full">
+                        <div class="heading_main text_align_center">
+						   <h2><span> Electrician     </span>Practice Sets </h2>
+                        </div>
+					  </div>
+                </div>
+			  </div>
+           </div>
+        </div>
+          
+          
+          
+          
+          
+          
+     
+    
+          
+          
+              
+          
+     
+              
+          
+      <h100>Electrician Practice Set 01</h100>      
+     <div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+       <h6>Electrician Practice Set_ 01 (0-25)</h6>  
+     
+    </div> 
+    </div>
+            
+            <div class="rightcolumn">
+            <div class="card">
+               <a class="bottomb" href="https://youtu.be/bF3jypP_1qs">Watch Video</a>    
+     
+            </div>
+            </div> 
+            
+    <div class="centercolumn">
+    <div class="card">
+      <a class="bottomc" href="Electronics%20MCQs%201.html">Start Quiz</a>
+     
+     
+    </div> 
+    </div>
+            
+</div>
+          
+          
+          
+          
         
         </div>          
                 
